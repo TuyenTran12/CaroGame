@@ -1,0 +1,36 @@
+D:\UICaro\bin\Debug\net8.0-windows\UICaro.exe
+D:\UICaro\bin\Debug\net8.0-windows\UICaro.deps.json
+D:\UICaro\bin\Debug\net8.0-windows\UICaro.runtimeconfig.json
+D:\UICaro\bin\Debug\net8.0-windows\UICaro.dll
+D:\UICaro\bin\Debug\net8.0-windows\UICaro.pdb
+D:\UICaro\obj\Debug\net8.0-windows\UICaro.Form1.resources
+D:\UICaro\obj\Debug\net8.0-windows\UICaro.csproj.GenerateResource.cache
+D:\UICaro\obj\Debug\net8.0-windows\UICaro.GeneratedMSBuildEditorConfig.editorconfig
+D:\UICaro\obj\Debug\net8.0-windows\UICaro.AssemblyInfoInputs.cache
+D:\UICaro\obj\Debug\net8.0-windows\UICaro.AssemblyInfo.cs
+D:\UICaro\obj\Debug\net8.0-windows\UICaro.csproj.CoreCompileInputs.cache
+D:\UICaro\obj\Debug\net8.0-windows\UICaro.dll
+D:\UICaro\obj\Debug\net8.0-windows\refint\UICaro.dll
+D:\UICaro\obj\Debug\net8.0-windows\UICaro.pdb
+D:\UICaro\obj\Debug\net8.0-windows\UICaro.genruntimeconfig.cache
+D:\UICaro\obj\Debug\net8.0-windows\ref\UICaro.dll
+D:\UICaro\obj\Debug\net8.0-windows\UICaro.Properties.Resources.resources
+D:\UICaro\obj\Debug\net8.0-windows\UICaro.MainMenu.resources
+D:\Users\New folder\UICaro\UICaro\bin\Debug\net8.0-windows\UICaro.exe
+D:\Users\New folder\UICaro\UICaro\bin\Debug\net8.0-windows\UICaro.deps.json
+D:\Users\New folder\UICaro\UICaro\bin\Debug\net8.0-windows\UICaro.runtimeconfig.json
+D:\Users\New folder\UICaro\UICaro\bin\Debug\net8.0-windows\UICaro.dll
+D:\Users\New folder\UICaro\UICaro\bin\Debug\net8.0-windows\UICaro.pdb
+D:\Users\New folder\UICaro\UICaro\obj\Debug\net8.0-windows\UICaro.Form1.resources
+D:\Users\New folder\UICaro\UICaro\obj\Debug\net8.0-windows\UICaro.MainMenu.resources
+D:\Users\New folder\UICaro\UICaro\obj\Debug\net8.0-windows\UICaro.Properties.Resources.resources
+D:\Users\New folder\UICaro\UICaro\obj\Debug\net8.0-windows\UICaro.csproj.GenerateResource.cache
+D:\Users\New folder\UICaro\UICaro\obj\Debug\net8.0-windows\UICaro.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\New folder\UICaro\UICaro\obj\Debug\net8.0-windows\UICaro.AssemblyInfoInputs.cache
+D:\Users\New folder\UICaro\UICaro\obj\Debug\net8.0-windows\UICaro.AssemblyInfo.cs
+D:\Users\New folder\UICaro\UICaro\obj\Debug\net8.0-windows\UICaro.csproj.CoreCompileInputs.cache
+D:\Users\New folder\UICaro\UICaro\obj\Debug\net8.0-windows\UICaro.dll
+D:\Users\New folder\UICaro\UICaro\obj\Debug\net8.0-windows\refint\UICaro.dll
+D:\Users\New folder\UICaro\UICaro\obj\Debug\net8.0-windows\UICaro.pdb
+D:\Users\New folder\UICaro\UICaro\obj\Debug\net8.0-windows\UICaro.genruntimeconfig.cache
+D:\Users\New folder\UICaro\UICaro\obj\Debug\net8.0-windows\ref\UICaro.dll
