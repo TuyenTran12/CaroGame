@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pnlChessBoard = new Panel();
             panel2 = new Panel();
@@ -40,6 +41,7 @@
             prcbCoolDown = new ProgressBar();
             txbPlayerName = new TextBox();
             label1 = new Label();
+            tmCoolDown = new System.Windows.Forms.Timer(components);
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pctbAvatar).BeginInit();
             panel1.SuspendLayout();
@@ -82,10 +84,10 @@
             // 
             pctbAvatar.BackgroundImage = Properties.Resources.HUIT;
             pctbAvatar.BackgroundImageLayout = ImageLayout.Stretch;
-            pctbAvatar.Location = new Point(38, 43);
+            pctbAvatar.Location = new Point(-1, 4);
             pctbAvatar.Margin = new Padding(3, 4, 3, 4);
             pctbAvatar.Name = "pctbAvatar";
-            pctbAvatar.Size = new Size(195, 228);
+            pctbAvatar.Size = new Size(259, 267);
             pctbAvatar.SizeMode = PictureBoxSizeMode.StretchImage;
             pctbAvatar.TabIndex = 0;
             pctbAvatar.TabStop = false;
@@ -138,9 +140,12 @@
             // 
             // prcbCoolDown
             // 
-            prcbCoolDown.Location = new Point(21, 131);
+            prcbCoolDown.BackColor = SystemColors.Control;
+            prcbCoolDown.ForeColor = Color.Transparent;
+            prcbCoolDown.Location = new Point(20, 131);
             prcbCoolDown.Margin = new Padding(3, 4, 3, 4);
             prcbCoolDown.Name = "prcbCoolDown";
+            prcbCoolDown.RightToLeftLayout = true;
             prcbCoolDown.Size = new Size(225, 31);
             prcbCoolDown.TabIndex = 1;
             // 
@@ -163,6 +168,10 @@
             label1.Size = new Size(188, 29);
             label1.TabIndex = 5;
             label1.Text = ">>> 5 in a line to win !!!";
+            // 
+            // tmCoolDown
+            // 
+            tmCoolDown.Tick += tmCoolDown_Tick;
             // 
             // Form1
             // 
@@ -201,5 +210,6 @@
         private Label label1;
         private Label label2;
         private PictureBox pctbAvatar;
+        private System.Windows.Forms.Timer tmCoolDown;
     }
 }

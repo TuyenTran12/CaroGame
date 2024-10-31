@@ -13,5 +13,9 @@ namespace UICaro
 
         public static int CHESS_BOARD_WIDTH = 15;
         public static int CHESS_BOARD_HEIGHT = 15;
+
+        public static int COOL_DOWN_STEP = 100;// thời gian mỗi lần load prcbCoolDown
+        public static int COOL_DOWN_TIME = 10000;// thời gian kết thúc prcbCoolDown
+        public static int COOL_DOWN_INTERVAL = 100;// thời gian tăng lên sau mỗi lần
     }
 }
