@@ -79,6 +79,14 @@ namespace UICaro
             }
         }
 
+        private Stack<PlayInfo> playTimeLine;
+
+        public Stack<PlayInfo> PlayTimeLine
+        {
+            get { return playTimeLine; }
+            set { playTimeLine = value; }
+        }
+
         #endregion
 
         #region Initialize
@@ -92,17 +100,24 @@ namespace UICaro
                 new Player("Player_1", Image.FromFile(Application.StartupPath + "\\Resources\\O.png")),
                 new Player("Player_2", Image.FromFile(Application.StartupPath + "\\Resources\\X.png"))
             };
-            currentPlayer = 0;
+            
+            
 
-            ChangePlayer();
         }
-
         #endregion
 
         #region Methods
         public void DrawChessBoard()
         {
-             ChessBoard.Enabled = true; //khởi tạo lại khi kết thúc
+            ChessBoard.Enabled = true; //khởi tạo lại khi kết thúc
+            ChessBoard.Controls.Clear(); //Dọn những item từ game cũ khi new game
+
+            PlayTimeLine = new Stack<PlayInfo>(); //Tạo mới dòng thời gian cho game
+
+            currentPlayer = 0;
+
+            ChangePlayer();
+
             //khởi tạo matrix
             Matrix = new List<List<Button>>();//list động nên không xđ phần tử
             Button oldButton = new Button() { Width = 0, Location = new Point(0, 0) };
@@ -141,24 +156,59 @@ namespace UICaro
 
             Mark(btn);
 
+            PlayTimeLine.Push(new PlayInfo (GetChessPoint(btn), CurrentPlayer)); // Lấy tọa độ điểm đánh
+
+            //Xem player hiện tại là người nào để được đánh dấu
+            CurrentPlayer = CurrentPlayer == 1 ? 0 : 1;
+
+            ChangePlayer();
+
+            if(playerMark != null)
+            {
+                playerMarked(this, new EventArgs());
+            }
+
             if (isEndGame(btn))
             {
                 EndGame();
             }
-            else
-            {
-                ChangePlayer();
-                playerMarked?.Invoke(this, new EventArgs());
-            }
+
 }
 
-            // Xử lý endgame
-            public void EndGame()
+        // Xử lý endgame
+        public void EndGame()
         {
             if (endedGame != null) { 
                 endedGame(this, new EventArgs()); 
             }
         }
+
+        // Xử lý Undo
+        public bool Undo()
+        {
+            if (PlayTimeLine.Count <= 0) //Check điều kiện lượt chơi
+                return false;
+
+            PlayInfo oldPoint = PlayTimeLine.Pop(); //Lấy điểm chơi gần nhất
+            Button btn = Matrix[oldPoint.Point.Y][oldPoint.Point.X]; //Lấy tọa độ điểm chơi gần nhất
+
+            btn.BackgroundImage = null;
+
+            if(PlayTimeLine.Count <= 0)
+            {
+                CurrentPlayer = 0;
+            }
+            else
+            {
+                oldPoint = PlayTimeLine.Peek();
+                CurrentPlayer = oldPoint.CurrentPlayer == 1 ? 0 : 1;
+            }
+
+            ChangePlayer();
+
+            return true;
+        }
+
         //Hàm xử lý endgame
         private bool isEndGame(Button btn)
         {
@@ -312,8 +362,6 @@ namespace UICaro
             //Chuyển đổi các button thành các image khi người chơi thao tác các ô chơi
             btn.BackgroundImage = Player[CurrentPlayer].Mark;
 
-            //Xem player hiện tại là người nào để được đánh dấu
-            CurrentPlayer = CurrentPlayer == 1 ? 0 : 1;
         }
         private void ChangePlayer()
         {
