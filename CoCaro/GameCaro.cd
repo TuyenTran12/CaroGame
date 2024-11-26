@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CoCaro.ChessBoardMaganer">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoFAYAAKQAQABGgCAiEDACwMAAMgEgSDIZgEgQGREAI=</HashCode>
+      <FileName>ChessBoardMaganer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoCaro.Const">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Const.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoCaro.Form1Player">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEIACABABAAAACAAAACAIAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Form1Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoCaro.Form2Player">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACABABwAAACAAAACAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Form2Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoCaro.FormGame">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAADBABBAAggCQAAAChAIAAYAQAABIBQARAQQ=</HashCode>
+      <FileName>FormGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoCaro.FormMusic">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAAAAAAACgAAICAAAAgAAAAAACAAAAAAI=</HashCode>
+      <FileName>FormMusic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoCaro.FormStart">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAABAAAICAAAACAAAAAAAAAAAAAAAAgAg=</HashCode>
+      <FileName>FormStart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoCaro.MusicFile">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAEAAAABAAAA=</HashCode>
+      <FileName>MusicFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoCaro.Player">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAACAAAAAgAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoCaro.PlayInfo">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAAAAAAAAAAAAACAAAAAgAAAAAA=</HashCode>
+      <FileName>PlayInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoCaro.Program">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

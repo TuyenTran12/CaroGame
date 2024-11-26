@@ -1,0 +1,104 @@
+D:\DoAnOOP\CoCaro\bin\Debug\CoCaro.exe.config
+D:\DoAnOOP\CoCaro\bin\Debug\CoCaro.exe
+D:\DoAnOOP\CoCaro\bin\Debug\CoCaro.pdb
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.AssemblyReference.cache
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.Properties.Resources.resources
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.GenerateResource.cache
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.CoreCompileInputs.cache
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.exe
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.pdb
+D:\DoAnOOP\CoCaro\bin\Debug\Newtonsoft.Json.dll
+D:\DoAnOOP\CoCaro\bin\Debug\System.Memory.dll
+D:\DoAnOOP\CoCaro\bin\Debug\System.Text.Encodings.Web.dll
+D:\DoAnOOP\CoCaro\bin\Debug\System.Numerics.Vectors.dll
+D:\DoAnOOP\CoCaro\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\DoAnOOP\CoCaro\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DoAnOOP\CoCaro\bin\Debug\System.Buffers.dll
+D:\DoAnOOP\CoCaro\bin\Debug\Newtonsoft.Json.xml
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.exe.config
+D:\DoAnOOP\CoCaro\bin\Debug\Interop.WMPLib.dll
+D:\DoAnOOP\CoCaro\bin\Debug\AxInterop.WMPLib.dll
+D:\DoAnOOP\CoCaro\obj\Debug\Interop.WMPLib.dll
+D:\DoAnOOP\CoCaro\obj\Debug\AxInterop.WMPLib.dll
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.ResolveComReference.cache
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.FormMusic.resources
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.FormGame.resources
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.Form1Player.resources
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.Form2Player.resources
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.FormStart.resources
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\bin\Debug\CoCaro.exe.config
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\bin\Debug\CoCaro.exe
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\bin\Debug\CoCaro.pdb
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\bin\Debug\System.Memory.dll
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\bin\Debug\System.Buffers.dll
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\bin\Debug\Interop.WMPLib.dll
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.AssemblyReference.cache
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.exe.config
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\Interop.WMPLib.dll
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.ResolveComReference.cache
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.Form1Player.resources
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.Form2Player.resources
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.FormGame.resources
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.FormMusic.resources
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.FormStart.resources
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.Properties.Resources.resources
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.GenerateResource.cache
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.CopyComplete
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.exe
+C:\Users\DELL\OneDrive\Máy tính\DoAnOOP\CoCaro\obj\Debug\CoCaro.pdb
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.SuggestedBindingRedirects.cache
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.Up2Date
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.Form2PlayerMode.resources
+D:\DoAnOOP\CoCaro\obj\Debug\CoCaro.FormGame2.resources
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\CoCaro.exe.config
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\CoCaro.exe
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\CoCaro.pdb
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\Newtonsoft.Json.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\System.Memory.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\System.Text.Encodings.Web.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\System.Numerics.Vectors.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\System.Buffers.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\Newtonsoft.Json.xml
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\Interop.WMPLib.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\AxInterop.WMPLib.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.AssemblyReference.cache
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.SuggestedBindingRedirects.cache
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.exe.config
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\Interop.WMPLib.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\AxInterop.WMPLib.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.ResolveComReference.cache
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.DangKy.resources
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.DangNhap.resources
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.Form1Player.resources
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.Form2Player.resources
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.Form2PlayerMode.resources
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.FormGame.resources
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.FormGame2.resources
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.FormMusic.resources
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.FormStart.resources
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.Properties.Resources.resources
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.GenerateResource.cache
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.CoreCompileInputs.cache
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.csproj.Up2Date
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.exe
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\obj\Debug\CoCaro.pdb
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\EntityFramework.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\EntityFramework.SqlServer.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\System.Data.SQLite.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\EntityFramework.xml
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\EntityFramework.SqlServer.xml
+D:\Downloads\DoAnCaro\DoAnOOP\CoCaro\bin\Debug\System.Data.SQLite.xml
