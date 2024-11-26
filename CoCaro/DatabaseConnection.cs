@@ -1,12 +1,24 @@
 ﻿using System;
 using System.Configuration;
 using System.Data.SQLite;
+using System.IO;
 
 namespace CoCaro
 {
     public class DatabaseConnection
     {
-        private string _connectionString = $"Data Source={AppDomain.CurrentDomain.BaseDirectory}GameCaro.db;Version=3;";
+        private string oneDrivePath; 
+        private string dbPath; 
+        private string _connectionString;
+
+        public DatabaseConnection()
+        {
+            oneDrivePath = Environment.GetEnvironmentVariable("OneDrive");
+            dbPath = Path.Combine(oneDrivePath, "GameCaro.db");
+
+            _connectionString = $"Data Source={dbPath};Version=3;";
+        }
+
 
         public SQLiteConnection OpenConnection()
         {
