@@ -41,7 +41,7 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Niagara Solid", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button2.Location = new System.Drawing.Point(510, 331);
             this.button2.Name = "button2";
@@ -69,36 +69,37 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(161, 216);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(146, 216);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 29);
+            this.label2.Size = new System.Drawing.Size(143, 29);
             this.label2.TabIndex = 10;
             this.label2.Text = "MẬT KHẨU";
             // 
             // lbDangNhap
             // 
             this.lbDangNhap.AutoSize = true;
-            this.lbDangNhap.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDangNhap.Location = new System.Drawing.Point(161, 148);
+            this.lbDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lbDangNhap.Location = new System.Drawing.Point(146, 148);
             this.lbDangNhap.Name = "lbDangNhap";
-            this.lbDangNhap.Size = new System.Drawing.Size(120, 29);
+            this.lbDangNhap.Size = new System.Drawing.Size(150, 29);
             this.lbDangNhap.TabIndex = 9;
             this.lbDangNhap.Text = "TÀI KHOÀN";
+            this.lbDangNhap.Click += new System.EventHandler(this.lbDangNhap_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Niagara Solid", 48F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(293, 56);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(226, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(250, 85);
+            this.label1.Size = new System.Drawing.Size(404, 91);
             this.label1.TabIndex = 8;
             this.label1.Text = "ĐĂNG KÝ";
             // 
             // btnDangKy
             // 
-            this.btnDangKy.Font = new System.Drawing.Font("Niagara Solid", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangKy.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnDangKy.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnDangKy.Location = new System.Drawing.Point(274, 331);
             this.btnDangKy.Name = "btnDangKy";
@@ -119,10 +120,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(63, 276);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(15, 276);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(229, 29);
+            this.label3.Size = new System.Drawing.Size(281, 29);
             this.label3.TabIndex = 14;
             this.label3.Text = "XÁC NHẬN MẬT KHẨU";
             // 

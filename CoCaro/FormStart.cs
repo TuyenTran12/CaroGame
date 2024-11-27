@@ -15,7 +15,7 @@ namespace CoCaro
     public partial class FormStart : Form
     {
         private readonly DatabaseConnection database;
-        private SQLiteConnection conn;
+        private SqlConnection conn;
         public FormStart()
         {
             InitializeComponent();

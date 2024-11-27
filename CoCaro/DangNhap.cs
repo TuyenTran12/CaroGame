@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Data;
-using System.Data.SQLite;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace CoCaro
@@ -8,7 +8,7 @@ namespace CoCaro
     public partial class DangNhap : Form
     {
         private readonly DatabaseConnection database;
-        private SQLiteConnection conn;
+        private SqlConnection conn;
 
         public DangNhap()
         {
@@ -32,12 +32,12 @@ namespace CoCaro
                 conn = database.OpenConnection();
                 string query = "SELECT * FROM Login WHERE username = @username AND password = @password";
 
-                using (SQLiteCommand cmd = new SQLiteCommand(query, conn))
+                using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@username", username);
                     cmd.Parameters.AddWithValue("@password", password);
 
-                    using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd))
+                    using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
                     {
                         DataTable dtable = new DataTable();
                         adapter.Fill(dtable);

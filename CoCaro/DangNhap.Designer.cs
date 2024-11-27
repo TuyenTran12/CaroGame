@@ -40,11 +40,11 @@
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.Font = new System.Drawing.Font("Niagara Solid", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnDangNhap.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnDangNhap.Location = new System.Drawing.Point(261, 298);
+            this.btnDangNhap.Location = new System.Drawing.Point(229, 298);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(120, 63);
+            this.btnDangNhap.Size = new System.Drawing.Size(161, 63);
             this.btnDangNhap.TabIndex = 0;
             this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.UseVisualStyleBackColor = true;
@@ -53,30 +53,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Niagara Solid", 48F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(280, 23);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(184, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(324, 85);
+            this.label1.Size = new System.Drawing.Size(522, 91);
             this.label1.TabIndex = 1;
             this.label1.Text = "ĐĂNG NHẬP";
             // 
             // lbDangNhap
             // 
             this.lbDangNhap.AutoSize = true;
-            this.lbDangNhap.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDangNhap.Location = new System.Drawing.Point(148, 139);
+            this.lbDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lbDangNhap.Location = new System.Drawing.Point(132, 139);
             this.lbDangNhap.Name = "lbDangNhap";
-            this.lbDangNhap.Size = new System.Drawing.Size(120, 29);
+            this.lbDangNhap.Size = new System.Drawing.Size(150, 29);
             this.lbDangNhap.TabIndex = 2;
-            this.lbDangNhap.Text = "TÀI KHOÀN";
+            this.lbDangNhap.Text = "TÀI KHOẢN";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(148, 207);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(139, 207);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 29);
+            this.label2.Size = new System.Drawing.Size(143, 29);
             this.label2.TabIndex = 3;
             this.label2.Text = "MẬT KHẨU";
             // 
@@ -98,11 +98,11 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Niagara Solid", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(497, 298);
+            this.button2.Location = new System.Drawing.Point(492, 298);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 63);
+            this.button2.Size = new System.Drawing.Size(161, 63);
             this.button2.TabIndex = 6;
             this.button2.Text = "Hủy";
             this.button2.UseVisualStyleBackColor = true;

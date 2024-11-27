@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Data.SQLite;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace CoCaro
@@ -7,7 +7,7 @@ namespace CoCaro
     public partial class DangKy : Form
     {
         private readonly DatabaseConnection database;
-        private SQLiteConnection conn;
+        private SqlConnection conn;
 
         public DangKy()
         {
@@ -37,8 +37,9 @@ namespace CoCaro
             {
                 conn = database.OpenConnection();
 
+                // Kiểm tra xem tài khoản đã tồn tại chưa
                 string checkQuery = "SELECT COUNT(*) FROM Login WHERE username = @username";
-                using (SQLiteCommand checkCmd = new SQLiteCommand(checkQuery, conn))
+                using (SqlCommand checkCmd = new SqlCommand(checkQuery, conn))
                 {
                     checkCmd.Parameters.AddWithValue("@username", username);
                     int count = Convert.ToInt32(checkCmd.ExecuteScalar());
@@ -49,8 +50,9 @@ namespace CoCaro
                     }
                     else
                     {
+                        // Thêm tài khoản mới vào cơ sở dữ liệu
                         string insertQuery = "INSERT INTO Login (username, password) VALUES (@username, @password)";
-                        using (SQLiteCommand insertCmd = new SQLiteCommand(insertQuery, conn))
+                        using (SqlCommand insertCmd = new SqlCommand(insertQuery, conn))
                         {
                             insertCmd.Parameters.AddWithValue("@username", username);
                             insertCmd.Parameters.AddWithValue("@password", password);
@@ -81,6 +83,13 @@ namespace CoCaro
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+            DangNhap dn = new DangNhap();
+            dn.Show();
+            this.Hide();
+        }
+
+        private void lbDangNhap_Click(object sender, EventArgs e)
         {
             DangNhap dn = new DangNhap();
             dn.Show();
