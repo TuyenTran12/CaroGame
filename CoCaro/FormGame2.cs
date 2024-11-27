@@ -115,7 +115,9 @@ namespace CoCaro
 
         private void quitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Quit();
+            FormStart formStart = new FormStart();
+            formStart.Show();
+            this.Close();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
