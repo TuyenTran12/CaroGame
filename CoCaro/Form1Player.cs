@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CoCaro
@@ -16,14 +9,13 @@ namespace CoCaro
         {
             InitializeComponent();
         }
-
+        public Form1Player(string username)
+        {
+            InitializeComponent();
+            txtPlayer.Text = username;
+        }
         private void btnPlay_Click(object sender, EventArgs e)
         {
-            if (txtPlayer.Text == "")
-            {
-                errorMessage("Bạn chưa nhập tên!");
-                return;
-            }
             if (txtPlayer.Text == "Máy tính")
             {
                 errorMessage("Bạn không được đặt tên này!");
@@ -55,9 +47,5 @@ namespace CoCaro
             MessageBox.Show(text, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        private void Form1Player_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

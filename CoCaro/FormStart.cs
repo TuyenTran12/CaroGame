@@ -27,7 +27,7 @@ namespace CoCaro
         }
         private void btnOnePlayer_Click(object sender, EventArgs e)
         {
-            Form1Player form1Player = new Form1Player();
+            Form1Player form1Player = new Form1Player(txtUsername.Text);
             form1Player.ShowDialog();
         }
 
@@ -43,6 +43,13 @@ namespace CoCaro
             DangNhap dn = new DangNhap();
             dn.Show();
             this.Close();
+        }
+
+        private void btnChangePassword_Click(object sender, EventArgs e)
+        {
+            FormChangePassword formChangePassword = new FormChangePassword(txtUsername.Text);
+            formChangePassword.Show();
+            this.Hide();
         }
     }
 }

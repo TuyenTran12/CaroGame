@@ -67,9 +67,11 @@ namespace CoCaro
             // 
             // txtPlayer
             // 
+            this.txtPlayer.Enabled = false;
             this.txtPlayer.Location = new System.Drawing.Point(147, 64);
             this.txtPlayer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPlayer.Name = "txtPlayer";
+            this.txtPlayer.ReadOnly = true;
             this.txtPlayer.Size = new System.Drawing.Size(280, 22);
             this.txtPlayer.TabIndex = 3;
             // 
@@ -113,7 +115,6 @@ namespace CoCaro
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1Player";
             this.Text = "Form1Player";
-            this.Load += new System.EventHandler(this.Form1Player_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

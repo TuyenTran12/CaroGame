@@ -53,24 +53,26 @@
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(308, 223);
+            this.txtMatKhau.Location = new System.Drawing.Point(365, 216);
+            this.txtMatKhau.Multiline = true;
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '*';
-            this.txtMatKhau.Size = new System.Drawing.Size(331, 22);
+            this.txtMatKhau.Size = new System.Drawing.Size(331, 29);
             this.txtMatKhau.TabIndex = 12;
             // 
             // txtTaiKhoan
             // 
-            this.txtTaiKhoan.Location = new System.Drawing.Point(308, 155);
+            this.txtTaiKhoan.Location = new System.Drawing.Point(365, 155);
+            this.txtTaiKhoan.Multiline = true;
             this.txtTaiKhoan.Name = "txtTaiKhoan";
-            this.txtTaiKhoan.Size = new System.Drawing.Size(331, 22);
+            this.txtTaiKhoan.Size = new System.Drawing.Size(331, 30);
             this.txtTaiKhoan.TabIndex = 11;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(146, 216);
+            this.label2.Location = new System.Drawing.Point(179, 216);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(143, 29);
             this.label2.TabIndex = 10;
@@ -80,7 +82,7 @@
             // 
             this.lbDangNhap.AutoSize = true;
             this.lbDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.lbDangNhap.Location = new System.Drawing.Point(146, 148);
+            this.lbDangNhap.Location = new System.Drawing.Point(172, 148);
             this.lbDangNhap.Name = "lbDangNhap";
             this.lbDangNhap.Size = new System.Drawing.Size(150, 29);
             this.lbDangNhap.TabIndex = 9;
@@ -111,17 +113,18 @@
             // 
             // txtXacNhanMatKhau
             // 
-            this.txtXacNhanMatKhau.Location = new System.Drawing.Point(308, 283);
+            this.txtXacNhanMatKhau.Location = new System.Drawing.Point(365, 276);
+            this.txtXacNhanMatKhau.Multiline = true;
             this.txtXacNhanMatKhau.Name = "txtXacNhanMatKhau";
             this.txtXacNhanMatKhau.PasswordChar = '*';
-            this.txtXacNhanMatKhau.Size = new System.Drawing.Size(331, 22);
+            this.txtXacNhanMatKhau.Size = new System.Drawing.Size(331, 29);
             this.txtXacNhanMatKhau.TabIndex = 15;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(15, 276);
+            this.label3.Location = new System.Drawing.Point(41, 276);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(281, 29);
             this.label3.TabIndex = 14;

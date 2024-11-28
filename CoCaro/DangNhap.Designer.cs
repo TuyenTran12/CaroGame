@@ -64,7 +64,7 @@
             // 
             this.lbDangNhap.AutoSize = true;
             this.lbDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.lbDangNhap.Location = new System.Drawing.Point(132, 139);
+            this.lbDangNhap.Location = new System.Drawing.Point(148, 146);
             this.lbDangNhap.Name = "lbDangNhap";
             this.lbDangNhap.Size = new System.Drawing.Size(150, 29);
             this.lbDangNhap.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(139, 207);
+            this.label2.Location = new System.Drawing.Point(155, 214);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(143, 29);
             this.label2.TabIndex = 3;
@@ -82,18 +82,20 @@
             // 
             // txtMatKhau
             // 
-            this.txtMatKhau.Location = new System.Drawing.Point(295, 214);
+            this.txtMatKhau.Location = new System.Drawing.Point(349, 214);
+            this.txtMatKhau.Multiline = true;
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '*';
-            this.txtMatKhau.Size = new System.Drawing.Size(331, 22);
+            this.txtMatKhau.Size = new System.Drawing.Size(331, 29);
             this.txtMatKhau.TabIndex = 5;
             // 
             // txtTaiKhoan
             // 
             this.txtTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
-            this.txtTaiKhoan.Location = new System.Drawing.Point(295, 146);
+            this.txtTaiKhoan.Location = new System.Drawing.Point(349, 146);
+            this.txtTaiKhoan.Multiline = true;
             this.txtTaiKhoan.Name = "txtTaiKhoan";
-            this.txtTaiKhoan.Size = new System.Drawing.Size(331, 22);
+            this.txtTaiKhoan.Size = new System.Drawing.Size(331, 29);
             this.txtTaiKhoan.TabIndex = 4;
             // 
             // button2

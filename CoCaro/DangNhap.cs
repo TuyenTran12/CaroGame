@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 namespace CoCaro
@@ -10,6 +11,7 @@ namespace CoCaro
         private readonly DatabaseConnection database;
         private SqlConnection conn;
 
+        public string username;
         public DangNhap()
         {
             InitializeComponent();
@@ -18,7 +20,7 @@ namespace CoCaro
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            string username = txtTaiKhoan.Text.Trim();
+            username = txtTaiKhoan.Text.Trim();
             string password = txtMatKhau.Text.Trim();
 
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
@@ -47,6 +49,7 @@ namespace CoCaro
                             FormStart frmStr = new FormStart();
                             frmStr.SetUserName(username);
                             frmStr.Show();
+
                             this.Hide();
                         }
                         else
@@ -77,5 +80,6 @@ namespace CoCaro
             dk.Show();
             this.Hide();
         }
+
     }
 }

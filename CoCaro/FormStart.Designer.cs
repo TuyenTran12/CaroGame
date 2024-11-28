@@ -130,7 +130,7 @@ namespace CoCaro
             this.txtUsername});
             this.menuStrip1.Location = new System.Drawing.Point(604, 42);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(213, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(215, 30);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -142,7 +142,7 @@ namespace CoCaro
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.txtUsername.ForeColor = System.Drawing.Color.Red;
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(55, 24);
+            this.txtUsername.Size = new System.Drawing.Size(55, 26);
             this.txtUsername.Text = "User";
             // 
             // btnChangePassword
@@ -150,6 +150,7 @@ namespace CoCaro
             this.btnChangePassword.Name = "btnChangePassword";
             this.btnChangePassword.Size = new System.Drawing.Size(224, 26);
             this.btnChangePassword.Text = "Đổi mật khẩu";
+            this.btnChangePassword.Click += new System.EventHandler(this.btnChangePassword_Click);
             // 
             // txtLogOut
             // 

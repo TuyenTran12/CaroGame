@@ -32,6 +32,16 @@ namespace CoCaro
                 MessageBox.Show("Mật khẩu xác nhận không khớp.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            if (username.Length <= 5)
+            {
+                MessageBox.Show("Tên tài khoản phải dài hơn 5 ký tự.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if (password.Length < 8)
+            {
+                MessageBox.Show("Mật khẩu phải có ít nhất 8 ký tự.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
             try
             {
@@ -62,6 +72,8 @@ namespace CoCaro
                             if (result > 0)
                             {
                                 MessageBox.Show("Đăng ký thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                DangNhap dn = new DangNhap();
+                                dn.Show();
                                 this.Close();
                             }
                             else
