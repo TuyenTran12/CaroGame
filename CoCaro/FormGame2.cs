@@ -24,23 +24,23 @@ namespace CoCaro
         #endregion
 
         #region Methods
-        public FormGame2(string playerOne, string playerTwo, int numberOfPlayers, int level)
+
+        // Lay ten login
+        private string loggedInUsername;
+        public FormGame2(string playerOne, string playerTwo, int numberOfPlayers, int level, string username)
         {
             InitializeComponent();
             Control.CheckForIllegalCrossThreadCalls = false;
-
             ChessBoard = new ChessBoardMaganer(pnlChessBoard, txbPlayerName, picbMark, playerOne, playerTwo, numberOfPlayers, level);
-
             ChessBoard.EndedGame += ChessBoard_EndedGame;
             ChessBoard.PlayerMarked += ChessBoard_PlayerMarked;
-
             prcbCoolDown.Step = Const.COOL_DOWN_STEP;
             prcbCoolDown.Maximum = Const.COOL_DOWN_TIME;
             tmCoolDown.Interval = Const.COOL_DOWN_INTERVAL;
-
             socket = new SocketManager();
-
             NewGame();
+            loggedInUsername = username;
+            txbPlayerName.Text = loggedInUsername; // Hiển thị tên người chơi
         }
         void ChessBoard_PlayerMarked(object sender, ButtonClickEvent e)
         {
@@ -98,6 +98,10 @@ namespace CoCaro
         {
             EndGame();
             socket.Send(new SocketData((int)SocketCommand.END_GAME, "", new Point()));
+
+            // Cập nhật điểm cho người chơi thắng
+            DatabaseConnection database = new DatabaseConnection();
+            database.UpdateScore(loggedInUsername, 30);
         }
 
         private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
@@ -255,6 +259,11 @@ namespace CoCaro
         }
 
         private void pnlChessBoard_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
         }

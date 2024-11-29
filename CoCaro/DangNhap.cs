@@ -38,6 +38,7 @@ namespace CoCaro
                 {
                     cmd.Parameters.AddWithValue("@username", username);
                     cmd.Parameters.AddWithValue("@password", password);
+                   
 
                     using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
                     {
@@ -48,6 +49,7 @@ namespace CoCaro
                         {
                             FormStart frmStr = new FormStart();
                             frmStr.SetUserName(username);
+                          
                             frmStr.Show();
 
                             this.Hide();

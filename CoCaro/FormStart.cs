@@ -24,6 +24,8 @@ namespace CoCaro
         public void SetUserName(string username)
         {
             txtUsername.Text = username;
+            int score = database.GetScore(username);
+            lb_Score.Text = "Score: " + score.ToString();
         }
         private void btnOnePlayer_Click(object sender, EventArgs e)
         {
@@ -33,7 +35,7 @@ namespace CoCaro
 
         private void btnTwoPlayer_Click(object sender, EventArgs e)
         {
-            Form2PlayerMode form2PlayerMode = new Form2PlayerMode();
+            Form2PlayerMode form2PlayerMode = new Form2PlayerMode(txtUsername.Text);
             form2PlayerMode.ShowDialog();
         }
 
@@ -56,6 +58,11 @@ namespace CoCaro
         {
             LeaderBoard lb = new LeaderBoard(txtUsername.Text);
             lb.Show();
+        }
+
+        private void lb_Score_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

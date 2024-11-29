@@ -30,9 +30,9 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.pnTop1 = new System.Windows.Forms.Panel();
-            this.txtTop1 = new System.Windows.Forms.Label();
-            this.lbName1 = new System.Windows.Forms.Label();
             this.lbScore1 = new System.Windows.Forms.Label();
+            this.lbName1 = new System.Windows.Forms.Label();
+            this.txtTop1 = new System.Windows.Forms.Label();
             this.pnTop2 = new System.Windows.Forms.Panel();
             this.lbScore2 = new System.Windows.Forms.Label();
             this.lbName2 = new System.Windows.Forms.Label();
@@ -85,16 +85,16 @@
             this.pnTop1.Size = new System.Drawing.Size(795, 62);
             this.pnTop1.TabIndex = 2;
             // 
-            // txtTop1
+            // lbScore1
             // 
-            this.txtTop1.AutoSize = true;
-            this.txtTop1.Font = new System.Drawing.Font("Niagara Solid", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTop1.ForeColor = System.Drawing.Color.Black;
-            this.txtTop1.Location = new System.Drawing.Point(8, -1);
-            this.txtTop1.Name = "txtTop1";
-            this.txtTop1.Size = new System.Drawing.Size(37, 64);
-            this.txtTop1.TabIndex = 3;
-            this.txtTop1.Text = "1";
+            this.lbScore1.AutoSize = true;
+            this.lbScore1.Font = new System.Drawing.Font("Niagara Solid", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbScore1.ForeColor = System.Drawing.Color.Black;
+            this.lbScore1.Location = new System.Drawing.Point(690, 6);
+            this.lbScore1.Name = "lbScore1";
+            this.lbScore1.Size = new System.Drawing.Size(62, 54);
+            this.lbScore1.TabIndex = 5;
+            this.lbScore1.Text = "100";
             // 
             // lbName1
             // 
@@ -107,16 +107,16 @@
             this.lbName1.TabIndex = 4;
             this.lbName1.Text = "Name";
             // 
-            // lbScore1
+            // txtTop1
             // 
-            this.lbScore1.AutoSize = true;
-            this.lbScore1.Font = new System.Drawing.Font("Niagara Solid", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbScore1.ForeColor = System.Drawing.Color.Black;
-            this.lbScore1.Location = new System.Drawing.Point(690, 6);
-            this.lbScore1.Name = "lbScore1";
-            this.lbScore1.Size = new System.Drawing.Size(62, 54);
-            this.lbScore1.TabIndex = 5;
-            this.lbScore1.Text = "100";
+            this.txtTop1.AutoSize = true;
+            this.txtTop1.Font = new System.Drawing.Font("Niagara Solid", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTop1.ForeColor = System.Drawing.Color.Black;
+            this.txtTop1.Location = new System.Drawing.Point(8, -1);
+            this.txtTop1.Name = "txtTop1";
+            this.txtTop1.Size = new System.Drawing.Size(37, 64);
+            this.txtTop1.TabIndex = 3;
+            this.txtTop1.Text = "1";
             // 
             // pnTop2
             // 
@@ -366,6 +366,7 @@
             this.Controls.Add(this.label1);
             this.Name = "LeaderBoard";
             this.Text = "LeaderBoard";
+          
             this.pnTop1.ResumeLayout(false);
             this.pnTop1.PerformLayout();
             this.pnTop2.ResumeLayout(false);

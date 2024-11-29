@@ -58,18 +58,20 @@ namespace CoCaro
             this.pnlChessBoard.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlChessBoard.BackColor = System.Drawing.SystemColors.Control;
-            this.pnlChessBoard.Location = new System.Drawing.Point(15, 29);
+            this.pnlChessBoard.Location = new System.Drawing.Point(20, 36);
+            this.pnlChessBoard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlChessBoard.Name = "pnlChessBoard";
-            this.pnlChessBoard.Size = new System.Drawing.Size(607, 845);
+            this.pnlChessBoard.Size = new System.Drawing.Size(809, 1040);
             this.pnlChessBoard.TabIndex = 0;
             // 
             // picChess
             // 
             this.picChess.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.picChess.Controls.Add(this.picAvatar);
-            this.picChess.Location = new System.Drawing.Point(658, 29);
+            this.picChess.Location = new System.Drawing.Point(877, 36);
+            this.picChess.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picChess.Name = "picChess";
-            this.picChess.Size = new System.Drawing.Size(291, 270);
+            this.picChess.Size = new System.Drawing.Size(388, 332);
             this.picChess.TabIndex = 1;
             // 
             // picAvatar
@@ -80,8 +82,9 @@ namespace CoCaro
             this.picAvatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picAvatar.Image = global::CoCaro.Properties.Resources.HUIT;
             this.picAvatar.Location = new System.Drawing.Point(0, 0);
+            this.picAvatar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picAvatar.Name = "picAvatar";
-            this.picAvatar.Size = new System.Drawing.Size(294, 272);
+            this.picAvatar.Size = new System.Drawing.Size(392, 335);
             this.picAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picAvatar.TabIndex = 0;
             this.picAvatar.TabStop = false;
@@ -95,26 +98,27 @@ namespace CoCaro
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.picbMark);
             this.panel3.Controls.Add(this.txbPlayerName);
-            this.panel3.Location = new System.Drawing.Point(658, 334);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 3, 3, 2);
+            this.panel3.Location = new System.Drawing.Point(877, 411);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(294, 340);
+            this.panel3.Size = new System.Drawing.Size(392, 418);
             this.panel3.TabIndex = 2;
             // 
             // prcbCoolDown
             // 
-            this.prcbCoolDown.Location = new System.Drawing.Point(24, 202);
-            this.prcbCoolDown.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.prcbCoolDown.Location = new System.Drawing.Point(32, 249);
+            this.prcbCoolDown.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.prcbCoolDown.Name = "prcbCoolDown";
-            this.prcbCoolDown.Size = new System.Drawing.Size(248, 32);
+            this.prcbCoolDown.Size = new System.Drawing.Size(331, 39);
             this.prcbCoolDown.TabIndex = 7;
+            this.prcbCoolDown.Click += new System.EventHandler(this.prcbCoolDown_Click);
             // 
             // btnPlayMusic
             // 
-            this.btnPlayMusic.Location = new System.Drawing.Point(163, 251);
-            this.btnPlayMusic.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPlayMusic.Location = new System.Drawing.Point(217, 309);
+            this.btnPlayMusic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPlayMusic.Name = "btnPlayMusic";
-            this.btnPlayMusic.Size = new System.Drawing.Size(109, 24);
+            this.btnPlayMusic.Size = new System.Drawing.Size(145, 30);
             this.btnPlayMusic.TabIndex = 6;
             this.btnPlayMusic.Text = "Play music";
             this.btnPlayMusic.UseVisualStyleBackColor = true;
@@ -124,28 +128,31 @@ namespace CoCaro
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Mistral", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(63, 296);
+            this.label1.Location = new System.Drawing.Point(84, 364);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(175, 26);
+            this.label1.Size = new System.Drawing.Size(223, 33);
             this.label1.TabIndex = 5;
             this.label1.Text = "Five in a line to win";
             // 
             // picbMark
             // 
             this.picbMark.BackColor = System.Drawing.SystemColors.Control;
-            this.picbMark.Location = new System.Drawing.Point(3, 0);
+            this.picbMark.Location = new System.Drawing.Point(4, 0);
+            this.picbMark.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picbMark.Name = "picbMark";
-            this.picbMark.Size = new System.Drawing.Size(289, 179);
+            this.picbMark.Size = new System.Drawing.Size(385, 220);
             this.picbMark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbMark.TabIndex = 2;
             this.picbMark.TabStop = false;
             // 
             // txbPlayerName
             // 
-            this.txbPlayerName.Location = new System.Drawing.Point(24, 258);
+            this.txbPlayerName.Location = new System.Drawing.Point(32, 318);
+            this.txbPlayerName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txbPlayerName.Name = "txbPlayerName";
             this.txbPlayerName.ReadOnly = true;
-            this.txbPlayerName.Size = new System.Drawing.Size(111, 20);
+            this.txbPlayerName.Size = new System.Drawing.Size(147, 22);
             this.txbPlayerName.TabIndex = 0;
             this.txbPlayerName.TextChanged += new System.EventHandler(this.txbPlayerName_TextChanged);
             // 
@@ -156,8 +163,8 @@ namespace CoCaro
             this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
-            this.menuStrip1.Size = new System.Drawing.Size(963, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(1284, 26);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -168,14 +175,14 @@ namespace CoCaro
             this.undoToolStripMenuItem,
             this.quitToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 22);
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
             this.menuToolStripMenuItem.Text = "Menu";
             // 
             // newGameToolStripMenuItem
             // 
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
             this.newGameToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
             this.newGameToolStripMenuItem.Text = "New game";
             this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
             // 
@@ -183,7 +190,7 @@ namespace CoCaro
             // 
             this.undoToolStripMenuItem.Name = "undoToolStripMenuItem";
             this.undoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.undoToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.undoToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
             this.undoToolStripMenuItem.Text = "Undo";
             this.undoToolStripMenuItem.Click += new System.EventHandler(this.undoToolStripMenuItem_Click);
             // 
@@ -191,7 +198,7 @@ namespace CoCaro
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
             this.quitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(217, 26);
             this.quitToolStripMenuItem.Text = "Quit";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
@@ -201,15 +208,16 @@ namespace CoCaro
             // 
             // FormGame
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(963, 609);
+            this.ClientSize = new System.Drawing.Size(1284, 750);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.picChess);
             this.Controls.Add(this.pnlChessBoard);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FormGame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

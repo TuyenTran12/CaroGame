@@ -12,9 +12,11 @@ namespace CoCaro
 {
     public partial class Form2PlayerMode : Form
     {
-        public Form2PlayerMode()
+        private string loggedInUsername;
+        public Form2PlayerMode(string username)
         {
             InitializeComponent();
+            loggedInUsername = username;
         }
 
         private void btn_Local_Click(object sender, EventArgs e)
@@ -26,8 +28,7 @@ namespace CoCaro
 
         private void btn_LANMode_Click(object sender, EventArgs e)
         {
-            FormGame2 formGame = new FormGame2("Guest","Opponent", 2, 0);
-
+            FormGame2 formGame = new FormGame2(loggedInUsername, "Opponent", 2, 0, loggedInUsername);
             formGame.ShowDialog();
             this.Close();
         }

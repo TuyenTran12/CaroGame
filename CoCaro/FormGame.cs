@@ -119,5 +119,10 @@ namespace CoCaro
         {
 
         }
+
+        private void prcbCoolDown_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

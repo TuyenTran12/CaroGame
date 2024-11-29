@@ -64,7 +64,7 @@ namespace CoCaro
             | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlChessBoard.BackColor = System.Drawing.SystemColors.Control;
             this.pnlChessBoard.Location = new System.Drawing.Point(16, 36);
-            this.pnlChessBoard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlChessBoard.Margin = new System.Windows.Forms.Padding(4);
             this.pnlChessBoard.Name = "pnlChessBoard";
             this.pnlChessBoard.Size = new System.Drawing.Size(821, 1040);
             this.pnlChessBoard.TabIndex = 0;
@@ -75,7 +75,7 @@ namespace CoCaro
             this.picChess.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.picChess.Controls.Add(this.picAvatar);
             this.picChess.Location = new System.Drawing.Point(877, 94);
-            this.picChess.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picChess.Margin = new System.Windows.Forms.Padding(4);
             this.picChess.Name = "picChess";
             this.picChess.Size = new System.Drawing.Size(388, 261);
             this.picChess.TabIndex = 1;
@@ -88,7 +88,7 @@ namespace CoCaro
             this.picAvatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picAvatar.Image = global::CoCaro.Properties.Resources.HUIT;
             this.picAvatar.Location = new System.Drawing.Point(41, 0);
-            this.picAvatar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picAvatar.Margin = new System.Windows.Forms.Padding(4);
             this.picAvatar.Name = "picAvatar";
             this.picAvatar.Size = new System.Drawing.Size(303, 261);
             this.picAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -113,6 +113,7 @@ namespace CoCaro
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(388, 369);
             this.panel3.TabIndex = 2;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // btnLAN
             // 
@@ -139,7 +140,7 @@ namespace CoCaro
             // txbIP
             // 
             this.txbIP.Location = new System.Drawing.Point(99, 18);
-            this.txbIP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbIP.Margin = new System.Windows.Forms.Padding(4);
             this.txbIP.Name = "txbIP";
             this.txbIP.Size = new System.Drawing.Size(147, 22);
             this.txbIP.TabIndex = 10;
@@ -189,7 +190,7 @@ namespace CoCaro
             // 
             this.picbMark.BackColor = System.Drawing.SystemColors.Control;
             this.picbMark.Location = new System.Drawing.Point(32, 74);
-            this.picbMark.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picbMark.Margin = new System.Windows.Forms.Padding(4);
             this.picbMark.Name = "picbMark";
             this.picbMark.Size = new System.Drawing.Size(147, 124);
             this.picbMark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -199,7 +200,7 @@ namespace CoCaro
             // txbPlayerName
             // 
             this.txbPlayerName.Location = new System.Drawing.Point(215, 174);
-            this.txbPlayerName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbPlayerName.Margin = new System.Windows.Forms.Padding(4);
             this.txbPlayerName.Name = "txbPlayerName";
             this.txbPlayerName.ReadOnly = true;
             this.txbPlayerName.Size = new System.Drawing.Size(147, 22);
@@ -281,7 +282,7 @@ namespace CoCaro
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FormGame2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -188,3 +188,47 @@ D:\Documents\GitHub\CaroGame\CoCaro\obj\Debug\CoCaro.exe
 D:\Documents\GitHub\CaroGame\CoCaro\obj\Debug\CoCaro.pdb
 D:\Documents\GitHub\CaroGame\CoCaro\obj\Debug\CoCaro.FormChangePassword.resources
 D:\Documents\GitHub\CaroGame\CoCaro\obj\Debug\CoCaro.LeaderBoard.resources
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\CoCaro.exe.config
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\CoCaro.exe
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\CoCaro.pdb
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\EntityFramework.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\EntityFramework.SqlServer.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\Newtonsoft.Json.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\System.Data.SQLite.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\System.Data.SQLite.EF6.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\System.Data.SQLite.Linq.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\System.Memory.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\System.Text.Encodings.Web.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\System.Numerics.Vectors.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\System.Buffers.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\EntityFramework.xml
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\EntityFramework.SqlServer.xml
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\Newtonsoft.Json.xml
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\System.Data.SQLite.xml
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\Interop.WMPLib.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\bin\Debug\AxInterop.WMPLib.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.csproj.AssemblyReference.cache
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.csproj.SuggestedBindingRedirects.cache
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.exe.config
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\Interop.WMPLib.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\AxInterop.WMPLib.dll
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.csproj.ResolveComReference.cache
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.DangKy.resources
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.DangNhap.resources
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.Form1Player.resources
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.Form2Player.resources
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.Form2PlayerMode.resources
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.FormChangePassword.resources
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.FormGame.resources
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.FormGame2.resources
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.FormMusic.resources
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.FormStart.resources
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.LeaderBoard.resources
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.Properties.Resources.resources
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.csproj.GenerateResource.cache
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.csproj.CoreCompileInputs.cache
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.csproj.Up2Date
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.exe
+D:\DoAnOOP\29 - 11\CaroGame-main\CoCaro\obj\Debug\CoCaro.pdb

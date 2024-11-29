@@ -42,6 +42,8 @@ namespace CoCaro
             this.btnChangePassword = new System.Windows.Forms.ToolStripMenuItem();
             this.txtLogOut = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lb_Score = new System.Windows.Forms.Label();
+            this.sqLiteCommandBuilder1 = new System.Data.SQLite.SQLiteCommandBuilder();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -169,11 +171,29 @@ namespace CoCaro
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
+            // lb_Score
+            // 
+            this.lb_Score.AutoSize = true;
+            this.lb_Score.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Score.ForeColor = System.Drawing.Color.Purple;
+            this.lb_Score.Location = new System.Drawing.Point(416, 41);
+            this.lb_Score.Name = "lb_Score";
+            this.lb_Score.Size = new System.Drawing.Size(37, 29);
+            this.lb_Score.TabIndex = 10;
+            this.lb_Score.Text = "...";
+            this.lb_Score.Click += new System.EventHandler(this.lb_Score_Click);
+            // 
+            // sqLiteCommandBuilder1
+            // 
+            this.sqLiteCommandBuilder1.DataAdapter = null;
+            this.sqLiteCommandBuilder1.QuoteSuffix = "]";
+            // 
             // FormStart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(874, 517);
+            this.Controls.Add(this.lb_Score);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnLeaderboard);
@@ -210,5 +230,7 @@ namespace CoCaro
         private System.Windows.Forms.ToolStripMenuItem txtUsername;
         private System.Windows.Forms.ToolStripMenuItem btnChangePassword;
         private System.Windows.Forms.ToolStripMenuItem txtLogOut;
+        private System.Windows.Forms.Label lb_Score;
+        private System.Data.SQLite.SQLiteCommandBuilder sqLiteCommandBuilder1;
     }
 }
