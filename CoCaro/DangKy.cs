@@ -46,8 +46,8 @@ namespace CoCaro
             try
             {
                 conn = database.OpenConnection();
+                SqlTransaction transaction = conn.BeginTransaction();
 
-                // Kiểm tra xem tài khoản đã tồn tại chưa
                 string checkQuery = "SELECT COUNT(*) FROM Login WHERE username = @username";
                 using (SqlCommand checkCmd = new SqlCommand(checkQuery, conn))
                 {
@@ -60,7 +60,6 @@ namespace CoCaro
                     }
                     else
                     {
-                        // Thêm tài khoản mới vào cơ sở dữ liệu
                         string insertQuery = "INSERT INTO Login (username, password) VALUES (@username, @password)";
                         using (SqlCommand insertCmd = new SqlCommand(insertQuery, conn))
                         {
@@ -72,6 +71,8 @@ namespace CoCaro
                             if (result > 0)
                             {
                                 MessageBox.Show("Đăng ký thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                transaction.Commit();
+
                                 DangNhap dn = new DangNhap();
                                 dn.Show();
                                 this.Close();
@@ -79,6 +80,7 @@ namespace CoCaro
                             else
                             {
                                 MessageBox.Show("Đăng ký thất bại, vui lòng thử lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                transaction.Rollback();
                             }
                         }
                     }
