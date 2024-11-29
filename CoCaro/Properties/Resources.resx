@@ -133,10 +133,14 @@
   <data name="iconO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="avartaCaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\avartaCaro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="MatTrang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MatTrang.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="avartaCaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avartaCaro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+ 
 </root>

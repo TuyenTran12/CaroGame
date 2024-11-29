@@ -187,3 +187,4 @@ D:\Documents\GitHub\CaroGame\CoCaro\obj\Debug\CoCaro.csproj.Up2Date
 D:\Documents\GitHub\CaroGame\CoCaro\obj\Debug\CoCaro.exe
 D:\Documents\GitHub\CaroGame\CoCaro\obj\Debug\CoCaro.pdb
 D:\Documents\GitHub\CaroGame\CoCaro\obj\Debug\CoCaro.FormChangePassword.resources
+D:\Documents\GitHub\CaroGame\CoCaro\obj\Debug\CoCaro.LeaderBoard.resources

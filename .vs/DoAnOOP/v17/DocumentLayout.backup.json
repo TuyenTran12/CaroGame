@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Documents\\GitHub\\CaroGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\documents\\github\\carogame\\cocaro\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\documents\\github\\carogame\\cocaro\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\documents\\github\\carogame\\cocaro\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\documents\\github\\carogame\\cocaro\\formchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\formchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\documents\\github\\carogame\\cocaro\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\documents\\github\\carogame\\cocaro\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FormStart.cs",
               "DocumentMoniker": "D:\\Documents\\GitHub\\CaroGame\\CoCaro\\FormStart.cs",
               "RelativeDocumentMoniker": "CoCaro\\FormStart.cs",
               "ToolTip": "D:\\Documents\\GitHub\\CaroGame\\CoCaro\\FormStart.cs",
               "RelativeToolTip": "CoCaro\\FormStart.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwCsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwDgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T09:29:11.867Z",
+              "WhenOpened": "2024-11-29T07:45:59.613Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormStart.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\CaroGame\\CoCaro\\FormStart.cs",
+              "RelativeDocumentMoniker": "CoCaro\\FormStart.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\CaroGame\\CoCaro\\FormStart.cs [Design]",
+              "RelativeToolTip": "CoCaro\\FormStart.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:45:56.431Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormChangePassword.cs",
-              "DocumentMoniker": "D:\\Documents\\GitHub\\CaroGame\\CoCaro\\FormChangePassword.cs",
-              "RelativeDocumentMoniker": "CoCaro\\FormChangePassword.cs",
-              "ToolTip": "D:\\Documents\\GitHub\\CaroGame\\CoCaro\\FormChangePassword.cs",
-              "RelativeToolTip": "CoCaro\\FormChangePassword.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAApwBsAAAAgAAAAAAAAAA==",
+              "Title": "LeaderBoard.cs",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\CaroGame\\CoCaro\\LeaderBoard.cs",
+              "RelativeDocumentMoniker": "CoCaro\\LeaderBoard.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\CaroGame\\CoCaro\\LeaderBoard.cs*",
+              "RelativeToolTip": "CoCaro\\LeaderBoard.cs*",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwDsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T09:26:37.707Z",
+              "WhenOpened": "2024-11-29T07:37:58.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DangNhap.cs",
-              "DocumentMoniker": "D:\\Documents\\GitHub\\CaroGame\\CoCaro\\DangNhap.cs",
-              "RelativeDocumentMoniker": "CoCaro\\DangNhap.cs",
-              "ToolTip": "D:\\Documents\\GitHub\\CaroGame\\CoCaro\\DangNhap.cs",
-              "RelativeToolTip": "CoCaro\\DangNhap.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LeaderBoard.cs [Design]",
+              "DocumentMoniker": "D:\\Documents\\GitHub\\CaroGame\\CoCaro\\LeaderBoard.cs",
+              "RelativeDocumentMoniker": "CoCaro\\LeaderBoard.cs",
+              "ToolTip": "D:\\Documents\\GitHub\\CaroGame\\CoCaro\\LeaderBoard.cs [Design]*",
+              "RelativeToolTip": "CoCaro\\LeaderBoard.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T09:26:33.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T07:09:39.453Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

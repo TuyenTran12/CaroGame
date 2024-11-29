@@ -51,5 +51,11 @@ namespace CoCaro
             formChangePassword.Show();
             this.Hide();
         }
+
+        private void btnLeaderboard_Click(object sender, EventArgs e)
+        {
+            LeaderBoard lb = new LeaderBoard(txtUsername.Text);
+            lb.Show();
+        }
     }
 }
