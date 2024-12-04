@@ -17,6 +17,28 @@ namespace CoCaro
             InitializeComponent();
         }
 
+        public int SoTran()
+        {
+            int soTran = 0;
+            if (chk_3tran.Checked)
+            {
+                soTran += 3;
+            }
+            if (chk_5tran.Checked)
+            {
+                soTran += 5;
+            }
+            if (chk_7tran.Checked)
+            {
+                soTran += 7;
+            }
+            if (chk_10tran.Checked)
+            {
+                soTran += 10;
+            }
+            return soTran;
+        }
+
         private void btnPlay_Click(object sender, EventArgs e)
         {
             if (txtPlayer1.Text == "")
@@ -34,8 +56,12 @@ namespace CoCaro
                 errorMessage("Tên hai người chơi không được trùng nhau!");
                 return;
             }
-            FormGame formGame = new FormGame(txtPlayer1.Text, txtPlayer2.Text, 2, 0);
-            
+
+            // Xác định người chơi nào đi trước
+            string firstPlayer = rdb_1.Checked ? txtPlayer1.Text : txtPlayer2.Text;
+            string secondPlayer = rdb_1.Checked ? txtPlayer2.Text : txtPlayer1.Text;
+
+            FormGame formGame = new FormGame(firstPlayer, secondPlayer, 2, 0, SoTran());
             formGame.ShowDialog();
             this.Close();
         }

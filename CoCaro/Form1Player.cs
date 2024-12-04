@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web;
 using System.Windows.Forms;
 
 namespace CoCaro
@@ -14,8 +15,30 @@ namespace CoCaro
             InitializeComponent();
             txtPlayer.Text = username;
         }
+        public int SoTran()
+        {
+            int soTran = 0;
+            if (chk_3tran.Checked)
+            {
+                soTran += 3;
+            }
+            if (chk_5tran.Checked)
+            {
+                soTran += 5;
+            }
+            if (chk_7tran.Checked)
+            {
+                soTran += 7;
+            }
+            if (chk_10tran.Checked)
+            {
+                soTran += 10;
+            }
+            return soTran;
+        }
         private void btnPlay_Click(object sender, EventArgs e)
         {
+            String mt = "Máy tính";
             if (txtPlayer.Text == "Máy tính")
             {
                 errorMessage("Bạn không được đặt tên này!");
@@ -37,7 +60,11 @@ namespace CoCaro
                 level = 4;
             else
                 level = 5;
-            FormGame formGame = new FormGame("Máy tính", txtPlayer.Text, 1, level);
+
+            // Xác định người chơi nào đi trước
+            string firstPlayer = rdb_1.Checked ? txtPlayer.Text : mt;
+            string secondPlayer = rdb_1.Checked ? mt : txtPlayer.Text;
+            FormGame formGame = new FormGame(firstPlayer, secondPlayer, 1, level,SoTran());
 
             formGame.ShowDialog();
             this.Close();

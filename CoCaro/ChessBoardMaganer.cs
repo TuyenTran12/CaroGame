@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -100,6 +101,13 @@ namespace CoCaro
                 endedGame -= value;
             }
         }
+        private int winner;
+        public int Winner
+        {
+            get { return winner; }
+            private set { winner = value; }
+        }
+
 
         private int level;
         public int Level { get => level; set => level = value; }
@@ -223,14 +231,17 @@ namespace CoCaro
             }
 
         }
-        private void endGame(int currentPlayer)
+        public void endGame(int currentPlayer)
         {
             if (isDrawGame())
+            {
                 MessageBox.Show("Cả 2 người chơi hòa nhau!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Winner = -1; // Hòa
+            }
             else
             {
+                Winner = currentPlayer;
                 EndGame();
-                MessageBox.Show(Players[currentPlayer].Name + " đã thắng!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
         public void OtherPlayerMark(Point point)
@@ -490,7 +501,7 @@ namespace CoCaro
             btn.BackgroundImage = Players[CurrentPlayer].Mark;
         }
 
-        private void ChangePlayer()
+        public void ChangePlayer()
         {
             PlayerName.Text = Players[CurrentPlayer].Name;
 

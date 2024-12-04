@@ -17,10 +17,17 @@ namespace CoCaro
     {
         #region Properties
         ChessBoardMaganer ChessBoard;
+        private int currentGame = 1;
+        private int totalGames;
+        private bool isPlayerOneTurn;
+        private string playerOne;
+        private string playerTwo;
+        private int scorePlayerOne = 0;
+        private int scorePlayerTwo = 0;
         #endregion
 
         #region Methods
-        public FormGame(string playerOne, string playerTwo, int numberOfPlayers, int level)
+        public FormGame(string playerOne, string playerTwo, int numberOfPlayers, int level, int sotran)
         {
             InitializeComponent();
 
@@ -33,30 +40,102 @@ namespace CoCaro
             prcbCoolDown.Maximum = Const.COOL_DOWN_TIME;
             tmCoolDown.Interval = Const.COOL_DOWN_INTERVAL;
 
+            this.playerOne = playerOne;
+            this.playerTwo = playerTwo;
+            totalGames = sotran;
+            isPlayerOneTurn = true;
+
             NewGame();
+
+            lb_name1.Text = playerOne;
+            lb_name2.Text = playerTwo;
+            lb_SoTran.Text = sotran.ToString();
         }
+
         void ChessBoard_PlayerMarked(object sender, EventArgs e)
         {
             tmCoolDown.Start();
             prcbCoolDown.Value = 0;
         }
+
         void EndGame()
         {
             tmCoolDown.Stop();
             pnlChessBoard.Enabled = false;
             undoToolStripMenuItem.Enabled = false;
-            MessageBox.Show("Kết thúc game!");
+
+            // Giả sử bạn đã có thông báo chiến thắng
+            string winner = DetermineWinner();
+            if (winner != "Không ai")
+            {
+                if (winner == playerOne)
+                {
+                    scorePlayerOne++;
+                    lb_diem1.Text = scorePlayerOne.ToString();
+                }
+                else if (winner == playerTwo)
+                {
+                    scorePlayerTwo++;
+                    lb_diem2.Text = scorePlayerTwo.ToString();
+                }
+
+                if (MessageBox.Show($"{winner} đã chiến thắng!", "Thông báo", MessageBoxButtons.OK) == DialogResult.OK)
+                {
+                    if (currentGame < totalGames)
+                    {
+                        ContinueGame();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Kết thúc tất cả các trận!");
+                    }
+                }
+            }
+            else
+            {
+                if (MessageBox.Show("Cả 2 người chơi hòa nhau!", "Thông báo", MessageBoxButtons.OK) == DialogResult.OK)
+                {
+                    if (currentGame < totalGames)
+                    {
+                        ContinueGame();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Kết thúc tất cả các trận!");
+                    }
+                }
+            }
+        }
+
+        string DetermineWinner()
+        {
+            // Sử dụng thuộc tính Winner của ChessBoardMaganer để xác định người chiến thắng
+            return ChessBoard.Winner == 0 ? playerOne : (ChessBoard.Winner == 1 ? playerTwo : "Không ai");
         }
 
         void NewGame()
         {
             undoToolStripMenuItem.Enabled = true;
             ChessBoard.drawChessBoard();
+            pnlChessBoard.Enabled = true;
+
+            // Thiết lập người chơi đi trước
+            ChessBoard.CurrentPlayer = isPlayerOneTurn ? 0 : 1;
+            ChessBoard.ChangePlayer();
         }
+
+        void ContinueGame()
+        {
+            currentGame++;
+            isPlayerOneTurn = !isPlayerOneTurn; // Luân phiên người chơi đi trước
+            NewGame();
+        }
+
         void Quit()
         {
             Application.Exit();
         }
+
         void Undo()
         {
             ChessBoard.Undo();
@@ -89,7 +168,6 @@ namespace CoCaro
             if (MessageBox.Show("Bạn có chắc muốn thoát?", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.OK)
                 e.Cancel = true;
         }
-        #endregion
 
         private void btnPlayMusic_Click(object sender, EventArgs e)
         {
@@ -106,12 +184,9 @@ namespace CoCaro
         {
             prcbCoolDown.PerformStep();
 
-
             if (prcbCoolDown.Value >= prcbCoolDown.Maximum)
             {
-
                 EndGame();
-
             }
         }
 
@@ -124,5 +199,11 @@ namespace CoCaro
         {
 
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
     }
 }

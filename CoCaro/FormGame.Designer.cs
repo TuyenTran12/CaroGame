@@ -46,6 +46,13 @@ namespace CoCaro
             this.undoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tmCoolDown = new System.Windows.Forms.Timer(this.components);
+            this.label2 = new System.Windows.Forms.Label();
+            this.lb_SoTran = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lb_name1 = new System.Windows.Forms.Label();
+            this.lb_diem1 = new System.Windows.Forms.Label();
+            this.lb_name2 = new System.Windows.Forms.Label();
+            this.lb_diem2 = new System.Windows.Forms.Label();
             this.picChess.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             this.panel3.SuspendLayout();
@@ -59,9 +66,9 @@ namespace CoCaro
             | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlChessBoard.BackColor = System.Drawing.SystemColors.Control;
             this.pnlChessBoard.Location = new System.Drawing.Point(20, 36);
-            this.pnlChessBoard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlChessBoard.Margin = new System.Windows.Forms.Padding(4);
             this.pnlChessBoard.Name = "pnlChessBoard";
-            this.pnlChessBoard.Size = new System.Drawing.Size(809, 1040);
+            this.pnlChessBoard.Size = new System.Drawing.Size(809, 1180);
             this.pnlChessBoard.TabIndex = 0;
             // 
             // picChess
@@ -69,7 +76,7 @@ namespace CoCaro
             this.picChess.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.picChess.Controls.Add(this.picAvatar);
             this.picChess.Location = new System.Drawing.Point(877, 36);
-            this.picChess.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picChess.Margin = new System.Windows.Forms.Padding(4);
             this.picChess.Name = "picChess";
             this.picChess.Size = new System.Drawing.Size(388, 332);
             this.picChess.TabIndex = 1;
@@ -82,7 +89,7 @@ namespace CoCaro
             this.picAvatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picAvatar.Image = global::CoCaro.Properties.Resources.HUIT;
             this.picAvatar.Location = new System.Drawing.Point(0, 0);
-            this.picAvatar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picAvatar.Margin = new System.Windows.Forms.Padding(4);
             this.picAvatar.Name = "picAvatar";
             this.picAvatar.Size = new System.Drawing.Size(392, 335);
             this.picAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -98,7 +105,7 @@ namespace CoCaro
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.picbMark);
             this.panel3.Controls.Add(this.txbPlayerName);
-            this.panel3.Location = new System.Drawing.Point(877, 411);
+            this.panel3.Location = new System.Drawing.Point(892, 463);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(392, 418);
@@ -139,7 +146,7 @@ namespace CoCaro
             // 
             this.picbMark.BackColor = System.Drawing.SystemColors.Control;
             this.picbMark.Location = new System.Drawing.Point(4, 0);
-            this.picbMark.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picbMark.Margin = new System.Windows.Forms.Padding(4);
             this.picbMark.Name = "picbMark";
             this.picbMark.Size = new System.Drawing.Size(385, 220);
             this.picbMark.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -149,7 +156,7 @@ namespace CoCaro
             // txbPlayerName
             // 
             this.txbPlayerName.Location = new System.Drawing.Point(32, 318);
-            this.txbPlayerName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbPlayerName.Margin = new System.Windows.Forms.Padding(4);
             this.txbPlayerName.Name = "txbPlayerName";
             this.txbPlayerName.ReadOnly = true;
             this.txbPlayerName.Size = new System.Drawing.Size(147, 22);
@@ -206,18 +213,99 @@ namespace CoCaro
             // 
             this.tmCoolDown.Tick += new System.EventHandler(this.tmCoolDown_Tick);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(872, 385);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(128, 25);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Tổng số trận:";
+            // 
+            // lb_SoTran
+            // 
+            this.lb_SoTran.AutoSize = true;
+            this.lb_SoTran.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_SoTran.ForeColor = System.Drawing.Color.Red;
+            this.lb_SoTran.Location = new System.Drawing.Point(1006, 385);
+            this.lb_SoTran.Name = "lb_SoTran";
+            this.lb_SoTran.Size = new System.Drawing.Size(19, 20);
+            this.lb_SoTran.TabIndex = 5;
+            this.lb_SoTran.Text = "0";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(872, 421);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(61, 25);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Tỉ số:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // lb_name1
+            // 
+            this.lb_name1.AutoSize = true;
+            this.lb_name1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_name1.Location = new System.Drawing.Point(939, 425);
+            this.lb_name1.Name = "lb_name1";
+            this.lb_name1.Size = new System.Drawing.Size(59, 20);
+            this.lb_name1.TabIndex = 7;
+            this.lb_name1.Text = "name1";
+            // 
+            // lb_diem1
+            // 
+            this.lb_diem1.AutoSize = true;
+            this.lb_diem1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_diem1.ForeColor = System.Drawing.Color.Red;
+            this.lb_diem1.Location = new System.Drawing.Point(1018, 425);
+            this.lb_diem1.Name = "lb_diem1";
+            this.lb_diem1.Size = new System.Drawing.Size(19, 20);
+            this.lb_diem1.TabIndex = 8;
+            this.lb_diem1.Text = "0";
+            // 
+            // lb_name2
+            // 
+            this.lb_name2.AutoSize = true;
+            this.lb_name2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_name2.Location = new System.Drawing.Point(1105, 425);
+            this.lb_name2.Name = "lb_name2";
+            this.lb_name2.Size = new System.Drawing.Size(59, 20);
+            this.lb_name2.TabIndex = 9;
+            this.lb_name2.Text = "name2";
+            // 
+            // lb_diem2
+            // 
+            this.lb_diem2.AutoSize = true;
+            this.lb_diem2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_diem2.ForeColor = System.Drawing.Color.Red;
+            this.lb_diem2.Location = new System.Drawing.Point(1191, 425);
+            this.lb_diem2.Name = "lb_diem2";
+            this.lb_diem2.Size = new System.Drawing.Size(19, 20);
+            this.lb_diem2.TabIndex = 10;
+            this.lb_diem2.Text = "0";
+            // 
             // FormGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1284, 750);
+            this.ClientSize = new System.Drawing.Size(1284, 890);
+            this.Controls.Add(this.lb_diem2);
+            this.Controls.Add(this.lb_name2);
+            this.Controls.Add(this.lb_diem1);
+            this.Controls.Add(this.lb_name1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lb_SoTran);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.picChess);
             this.Controls.Add(this.pnlChessBoard);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FormGame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -253,6 +341,13 @@ namespace CoCaro
         private System.Windows.Forms.Button btnPlayMusic;
         private System.Windows.Forms.ProgressBar prcbCoolDown;
         private System.Windows.Forms.Timer tmCoolDown;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lb_SoTran;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lb_name1;
+        private System.Windows.Forms.Label lb_diem1;
+        private System.Windows.Forms.Label lb_name2;
+        private System.Windows.Forms.Label lb_diem2;
     }
 }
 
