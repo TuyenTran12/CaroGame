@@ -36,6 +36,7 @@
             this.txtTaiKhoan = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.btnGuest = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnDangNhap
@@ -121,11 +122,22 @@
             this.linkLabel1.Text = "Hãy nhấn vào đây nếu bạn chưa có tài khoản";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // btnGuest
+            // 
+            this.btnGuest.Location = new System.Drawing.Point(711, 146);
+            this.btnGuest.Name = "btnGuest";
+            this.btnGuest.Size = new System.Drawing.Size(82, 29);
+            this.btnGuest.TabIndex = 8;
+            this.btnGuest.Text = "Guest";
+            this.btnGuest.UseVisualStyleBackColor = true;
+            this.btnGuest.Click += new System.EventHandler(this.btnGuest_Click);
+            // 
             // DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(876, 453);
+            this.Controls.Add(this.btnGuest);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txtMatKhau);
@@ -151,5 +163,6 @@
         private System.Windows.Forms.TextBox txtTaiKhoan;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button btnGuest;
     }
 }

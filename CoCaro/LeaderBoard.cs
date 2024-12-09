@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CoCaro
@@ -26,6 +23,27 @@ namespace CoCaro
         {
             try
             {
+                // Nếu người chơi là guest, không kết nối đến SQL
+                if (currentUser.Equals("guest", StringComparison.OrdinalIgnoreCase))
+                {
+                    lbTopNow.Text = "N/A";
+                    lbNameNow.Text = currentUser;
+                    lbScoreNow.Text = "0";
+                    ResetDefaultStyle(lbTopNow, lbNameNow, lbScoreNow, pnTopNow);
+
+                    lbName1.Text = "Guest";
+                    lbScore1.Text = "0";
+                    lbName2.Text = "Guest";
+                    lbScore2.Text = "0";
+                    lbName3.Text = "Guest";
+                    lbScore3.Text = "0";
+                    lbName4.Text = "Guest";
+                    lbScore4.Text = "0";
+                    lbName5.Text = "Guest";
+                    lbScore5.Text = "0";
+                    return; // Dừng phương thức ở đây nếu là guest
+                }
+
                 conn = database.OpenConnection();
 
                 string query = @"
@@ -125,6 +143,7 @@ namespace CoCaro
                 database.CloseConnection(conn);
             }
         }
+
         // Hàm áp dụng style cho Top 1, 2, 3
         private void ApplyRankStyle(Label lbTop, Label lbName, Label lbScore, Panel pnTop, Panel pnSourceTop, Color foreColor, Color backColor)
         {

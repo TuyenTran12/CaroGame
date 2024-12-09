@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
-using System.Runtime.InteropServices;
+using System.Configuration; // Đảm bảo bạn đã thêm using này để đọc App.config
 using System.Windows.Forms;
 
 namespace CoCaro
@@ -10,8 +10,8 @@ namespace CoCaro
     {
         private readonly DatabaseConnection database;
         private SqlConnection conn;
-
         public string username;
+
         public DangNhap()
         {
             InitializeComponent();
@@ -23,51 +23,66 @@ namespace CoCaro
             username = txtTaiKhoan.Text.Trim();
             string password = txtMatKhau.Text.Trim();
 
+            // Kiểm tra thông tin tài khoản và mật khẩu nhập vào
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Vui lòng nhập tài khoản và mật khẩu.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            try
+            // Kiểm tra nếu người dùng đăng nhập bằng tài khoản "guest"
+            string guestUsername = ConfigurationManager.AppSettings["username"];
+            string guestPassword = ConfigurationManager.AppSettings["password"];
+
+            if (username == guestUsername && password == guestPassword)
             {
-                conn = database.OpenConnection();
-                string query = "SELECT * FROM Login WHERE username = @username AND password = @password";
-
-                using (SqlCommand cmd = new SqlCommand(query, conn))
+                // Nếu là guest, tự động đăng nhập và mở FormStart
+                FormStart frmStr = new FormStart();
+                frmStr.SetUserName(username);
+                frmStr.Show();
+                this.Hide();
+            }
+            else
+            {
+                // Nếu không phải guest, kiểm tra thông tin đăng nhập từ cơ sở dữ liệu
+                try
                 {
-                    cmd.Parameters.AddWithValue("@username", username);
-                    cmd.Parameters.AddWithValue("@password", password);
-                   
+                    conn = database.OpenConnection();
+                    string query = "SELECT * FROM Login WHERE username = @username AND password = @password";
 
-                    using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
-                        DataTable dtable = new DataTable();
-                        adapter.Fill(dtable);
+                        cmd.Parameters.AddWithValue("@username", username);
+                        cmd.Parameters.AddWithValue("@password", password);
 
-                        if (dtable.Rows.Count > 0)
+                        using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
                         {
-                            FormStart frmStr = new FormStart();
-                            frmStr.SetUserName(username);
-                          
-                            frmStr.Show();
+                            DataTable dtable = new DataTable();
+                            adapter.Fill(dtable);
 
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Thông tin đăng nhập không hợp lệ", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            if (dtable.Rows.Count > 0)
+                            {
+                                // Nếu tài khoản và mật khẩu hợp lệ, chuyển đến FormStart
+                                FormStart frmStr = new FormStart();
+                                frmStr.SetUserName(username);
+                                frmStr.Show();
+                                this.Hide();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Thông tin đăng nhập không hợp lệ", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
                         }
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                database.CloseConnection(conn);
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
+                    database.CloseConnection(conn);
+                }
             }
         }
 
@@ -83,5 +98,12 @@ namespace CoCaro
             this.Hide();
         }
 
+        private void btnGuest_Click(object sender, EventArgs e)
+        {
+            // Tự động đăng nhập với tài khoản "guest"
+            txtTaiKhoan.Text = ConfigurationManager.AppSettings["username"];
+            txtMatKhau.Text = ConfigurationManager.AppSettings["password"];
+            btnDangNhap_Click(sender, e);  // Gọi lại hàm đăng nhập
+        }
     }
 }
