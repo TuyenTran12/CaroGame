@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Web;
 using System.Windows.Forms;
 
 namespace CoCaro
@@ -15,30 +14,8 @@ namespace CoCaro
             InitializeComponent();
             txtPlayer.Text = username;
         }
-        public int SoTran()
-        {
-            int soTran = 0;
-            if (chk_3tran.Checked)
-            {
-                soTran += 3;
-            }
-            if (chk_5tran.Checked)
-            {
-                soTran += 5;
-            }
-            if (chk_7tran.Checked)
-            {
-                soTran += 7;
-            }
-            if (chk_10tran.Checked)
-            {
-                soTran += 10;
-            }
-            return soTran;
-        }
         private void btnPlay_Click(object sender, EventArgs e)
         {
-            String mt = "Máy tính";
             if (txtPlayer.Text == "Máy tính")
             {
                 errorMessage("Bạn không được đặt tên này!");
@@ -49,6 +26,7 @@ namespace CoCaro
                 errorMessage("Bạn chưa chọn cấp độ!");
                 return;
             }
+
             int level;
             if (cbbLevel.SelectedItem.ToString() == "Level 1")
                 level = 1;
@@ -61,14 +39,32 @@ namespace CoCaro
             else
                 level = 5;
 
-            // Xác định người chơi nào đi trước
-            string firstPlayer = rdb_1.Checked ? txtPlayer.Text : mt;
-            string secondPlayer = rdb_1.Checked ? mt : txtPlayer.Text;
-            FormGame formGame = new FormGame(firstPlayer, secondPlayer, 1, level,SoTran());
+            int totalGames = GetNumberOfGames();
+            if (rbPlayerFirst.Checked)
+            {
+                FormGame formGame = new FormGame(txtPlayer.Text, "Máy tính", 1, level, totalGames);
 
-            formGame.ShowDialog();
-            this.Close();
+                formGame.ShowDialog();
+                this.Close();
+            }
+            else
+            {
+                FormGame formGame = new FormGame("Máy tính", txtPlayer.Text, 1, level, totalGames);
+
+                formGame.ShowDialog();
+                this.Close();
+            }
         }
+        private int GetNumberOfGames()
+        {
+            if (cb3.Checked) return 3;
+            if (cb5.Checked) return 5;
+            if (cb7.Checked) return 7;
+            if (cb10.Checked) return 10;
+
+            return 3;
+        }
+
         private void errorMessage(string text)
         {
             MessageBox.Show(text, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);

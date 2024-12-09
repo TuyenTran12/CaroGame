@@ -4,7 +4,6 @@ using System.ComponentModel;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -20,6 +19,12 @@ namespace CoCaro
     public class ChessBoardMaganer
     {
         #region Properties
+        public int Winner { get; private set; }
+        private int currentGame = 1;
+        private int totalGames = 3;
+
+        public int CurrentGame { get => currentGame; }
+        public int TotalGames { get => totalGames; set => totalGames = value; }
 
         private Panel chessBoard;
         public Panel ChessBoard
@@ -35,28 +40,28 @@ namespace CoCaro
         }
 
         private List<Player> players;
-        public List<Player> Players 
-        { 
-            get { return players; } 
-            set { players = value; } 
+        public List<Player> Players
+        {
+            get { return players; }
+            set { players = value; }
         }
 
         private int currentPlayer;
-        public int CurrentPlayer 
+        public int CurrentPlayer
         {
             get { return currentPlayer; }
             set { currentPlayer = value; }
         }
-        
+
         private TextBox playerName;
-        public TextBox PlayerName 
+        public TextBox PlayerName
         {
             get { return playerName; }
             set { playerName = value; }
         }
 
         private PictureBox playerMark;
-        public PictureBox PlayerMark 
+        public PictureBox PlayerMark
         {
             get { return playerMark; }
             set { playerMark = value; }
@@ -68,7 +73,7 @@ namespace CoCaro
             get => matrix;
             set => matrix = value;
         }
-        
+
         private Stack<PlayInfo> playTimeLine;
         public Stack<PlayInfo> PlayTimeLine
         {
@@ -101,13 +106,6 @@ namespace CoCaro
                 endedGame -= value;
             }
         }
-        private int winner;
-        public int Winner
-        {
-            get { return winner; }
-            private set { winner = value; }
-        }
-
 
         private int level;
         public int Level { get => level; set => level = value; }
@@ -135,6 +133,7 @@ namespace CoCaro
         #endregion
 
         #region Methods
+
         public void drawChessBoard()
         {
             ChessBoard.Enabled = true;
@@ -191,7 +190,7 @@ namespace CoCaro
                 ChangePlayer();
             }
         }
-        
+
         void btn_Click(object sender, EventArgs e)
         {
             Button button = sender as Button;
@@ -214,7 +213,7 @@ namespace CoCaro
                 computerChess.BackgroundImage = Players[CurrentPlayer].Mark;
                 computerChess.BackColor = Color.Aqua;
 
-               
+
 
                 if (isEndGame(computerChess))
                 {
@@ -231,12 +230,12 @@ namespace CoCaro
             }
 
         }
-        public void endGame(int currentPlayer)
+
+        private void endGame(int currentPlayer)
         {
             if (isDrawGame())
             {
-                MessageBox.Show("Cả 2 người chơi hòa nhau!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Winner = -1; // Hòa
+                Winner = -1;
             }
             else
             {
@@ -244,6 +243,7 @@ namespace CoCaro
                 EndGame();
             }
         }
+
         public void OtherPlayerMark(Point point)
         {
             Button btn = Matrix[point.Y][point.X];
@@ -303,7 +303,7 @@ namespace CoCaro
                     oldPoint = PlayTimeLine.Peek();
                     CurrentPlayer = PlayTimeLine.Peek().CurrentPlayer == 1 ? 0 : 1;
                 }
-                    
+
                 ChangePlayer();
             }
             return true;
@@ -350,10 +350,14 @@ namespace CoCaro
         {
             if (isEndHorizontal(btn) || isEndVertical(btn) || isEndMain(btn) || isEndSub(btn))
                 return true;
+
+            // Kiểm tra hòa
             if (isDrawGame())
                 return true;
+
             return false;
         }
+
 
         private Point GetChessPoint(Button btn)
         {
@@ -489,7 +493,7 @@ namespace CoCaro
         }
         private bool isDrawGame()
         {
-            for (int i = 0; i < Const.CHESS_BOARD_LENGTH; i++) 
+            for (int i = 0; i < Const.CHESS_BOARD_LENGTH; i++)
                 for (int j = 0; j < Const.CHESS_BOARD_LENGTH; j++)
                     if (Matrix[i][j].BackgroundImage == null)
                         return false;
@@ -561,7 +565,7 @@ namespace CoCaro
         }
 
         #endregion
-        
+
         #region Attack
         public int attackHorizonal(int currentRow, int currentCol)// hàng ngang, hàng dọc
         {
@@ -912,41 +916,65 @@ namespace CoCaro
         #endregion
 
         #region Máy đánh
-        private Point getCoordinateOfComputerChess()
+        public Point getCoordinateOfComputerChess()
         {
             Point point = new Point();
-            int maxScore = 0, attackScore = 0, defenseScore = 0;
+            int maxScore = int.MinValue;
+            int attackScore = 0, defenseScore = 0;
+
             if ((Players[0].Name == "Máy tính" && PlayTimeLine.Count == 0) || (Players[1].Name == "Máy tính" && PlayTimeLine.Count == 1))
             {
+                Random random = new Random();
                 do
                 {
-                    Random random = new Random();
                     point.X = random.Next(Const.CHESS_BOARD_LENGTH / 2 - 3, Const.CHESS_BOARD_LENGTH / 2 + 3);
                     point.Y = random.Next(Const.CHESS_BOARD_LENGTH / 2 - 3, Const.CHESS_BOARD_LENGTH / 2 + 3);
                 } while (Matrix[point.Y][point.X].BackgroundImage != null);
             }
             else
+            {
                 for (int i = 0; i < Const.CHESS_BOARD_LENGTH; i++)
+                {
                     for (int j = 0; j < Const.CHESS_BOARD_LENGTH; j++)
+                    {
                         if (Matrix[i][j].BackColor == Color.FromArgb(200, 200, 200) && !catTia(i, j))
                         {
-                            int tempScore = 0;
-                            attackScore = attackHorizonal(i, j) + attackVertical(i, j) + attackMainDiagonal(i, j) + attackSubDiagonal(i, j);//tổng điểm tấn công theo các đường
-                            defenseScore = defenseHorizonal(i, j) + defenseVertical(i, j) + defenseMainDiagonal(i, j) + defenseSubDiagonal(i, j);//tổng điểm phòng ngự theo các đường
-                            tempScore = attackScore > defenseScore ? attackScore : defenseScore;// nếu attack > defen gán temp = attack và ngược lại
-                            if (maxScore < tempScore)
+                            attackScore = attackHorizonal(i, j) + attackVertical(i, j) + attackMainDiagonal(i, j) + attackSubDiagonal(i, j);
+                            defenseScore = defenseHorizonal(i, j) + defenseVertical(i, j) + defenseMainDiagonal(i, j) + defenseSubDiagonal(i, j);
+
+                            int tempScore = Math.Max(attackScore, defenseScore);
+
+                            if (tempScore > maxScore)
                             {
-                                maxScore = tempScore;   
+                                maxScore = tempScore;
                                 point.X = i;
                                 point.Y = j;
                             }
                         }
+                    }
+                }
+            }
+
             return point;
         }
+        public void computerMove()
+        {
+            Point computerMove = getCoordinateOfComputerChess();
+
+            Button computerButton = Matrix[computerMove.Y][computerMove.X];
+            computerButton.BackgroundImage = Players[CurrentPlayer].Mark;
+            computerButton.BackColor = Color.Aqua;
+
+            PlayTimeLine.Push(new PlayInfo(computerMove, CurrentPlayer));
+
+            CurrentPlayer = CurrentPlayer == 1 ? 0 : 1;
+            ChangePlayer();
+        }
+
         #endregion
 
         #region Minimax
-       
+
         #endregion
 
         #endregion

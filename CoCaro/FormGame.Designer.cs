@@ -118,7 +118,6 @@ namespace CoCaro
             this.prcbCoolDown.Name = "prcbCoolDown";
             this.prcbCoolDown.Size = new System.Drawing.Size(331, 39);
             this.prcbCoolDown.TabIndex = 7;
-            this.prcbCoolDown.Click += new System.EventHandler(this.prcbCoolDown_Click);
             // 
             // btnPlayMusic
             // 
@@ -161,7 +160,6 @@ namespace CoCaro
             this.txbPlayerName.ReadOnly = true;
             this.txbPlayerName.Size = new System.Drawing.Size(147, 22);
             this.txbPlayerName.TabIndex = 0;
-            this.txbPlayerName.TextChanged += new System.EventHandler(this.txbPlayerName_TextChanged);
             // 
             // menuStrip1
             // 
@@ -243,7 +241,6 @@ namespace CoCaro
             this.label4.Size = new System.Drawing.Size(61, 25);
             this.label4.TabIndex = 6;
             this.label4.Text = "Tỉ số:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // lb_name1
             // 
@@ -311,7 +308,6 @@ namespace CoCaro
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Game Caro";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
-            this.Load += new System.EventHandler(this.FormGame_Load);
             this.picChess.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).EndInit();
             this.panel3.ResumeLayout(false);

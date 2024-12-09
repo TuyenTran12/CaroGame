@@ -35,13 +35,13 @@ namespace CoCaro
             this.txtPlayer = new System.Windows.Forms.TextBox();
             this.cbbLevel = new System.Windows.Forms.ComboBox();
             this.btnPlay = new System.Windows.Forms.Button();
-            this.chk_10tran = new System.Windows.Forms.CheckBox();
-            this.chk_7tran = new System.Windows.Forms.CheckBox();
-            this.chk_5tran = new System.Windows.Forms.CheckBox();
-            this.chk_3tran = new System.Windows.Forms.CheckBox();
+            this.cb10 = new System.Windows.Forms.CheckBox();
+            this.cb7 = new System.Windows.Forms.CheckBox();
+            this.cb5 = new System.Windows.Forms.CheckBox();
+            this.cb3 = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.rbd_2 = new System.Windows.Forms.RadioButton();
-            this.rdb_1 = new System.Windows.Forms.RadioButton();
+            this.rbComputerFirst = new System.Windows.Forms.RadioButton();
+            this.rbPlayerFirst = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -109,45 +109,45 @@ namespace CoCaro
             this.btnPlay.UseVisualStyleBackColor = true;
             this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
-            // chk_10tran
+            // cb10
             // 
-            this.chk_10tran.AutoSize = true;
-            this.chk_10tran.Location = new System.Drawing.Point(342, 215);
-            this.chk_10tran.Name = "chk_10tran";
-            this.chk_10tran.Size = new System.Drawing.Size(68, 20);
-            this.chk_10tran.TabIndex = 33;
-            this.chk_10tran.Text = "10 trận";
-            this.chk_10tran.UseVisualStyleBackColor = true;
+            this.cb10.AutoSize = true;
+            this.cb10.Location = new System.Drawing.Point(342, 215);
+            this.cb10.Name = "cb10";
+            this.cb10.Size = new System.Drawing.Size(68, 20);
+            this.cb10.TabIndex = 33;
+            this.cb10.Text = "10 trận";
+            this.cb10.UseVisualStyleBackColor = true;
             // 
-            // chk_7tran
+            // cb7
             // 
-            this.chk_7tran.AutoSize = true;
-            this.chk_7tran.Location = new System.Drawing.Point(259, 216);
-            this.chk_7tran.Name = "chk_7tran";
-            this.chk_7tran.Size = new System.Drawing.Size(61, 20);
-            this.chk_7tran.TabIndex = 32;
-            this.chk_7tran.Text = "7 trận";
-            this.chk_7tran.UseVisualStyleBackColor = true;
+            this.cb7.AutoSize = true;
+            this.cb7.Location = new System.Drawing.Point(259, 216);
+            this.cb7.Name = "cb7";
+            this.cb7.Size = new System.Drawing.Size(61, 20);
+            this.cb7.TabIndex = 32;
+            this.cb7.Text = "7 trận";
+            this.cb7.UseVisualStyleBackColor = true;
             // 
-            // chk_5tran
+            // cb5
             // 
-            this.chk_5tran.AutoSize = true;
-            this.chk_5tran.Location = new System.Drawing.Point(174, 216);
-            this.chk_5tran.Name = "chk_5tran";
-            this.chk_5tran.Size = new System.Drawing.Size(61, 20);
-            this.chk_5tran.TabIndex = 31;
-            this.chk_5tran.Text = "5 trận";
-            this.chk_5tran.UseVisualStyleBackColor = true;
+            this.cb5.AutoSize = true;
+            this.cb5.Location = new System.Drawing.Point(174, 216);
+            this.cb5.Name = "cb5";
+            this.cb5.Size = new System.Drawing.Size(61, 20);
+            this.cb5.TabIndex = 31;
+            this.cb5.Text = "5 trận";
+            this.cb5.UseVisualStyleBackColor = true;
             // 
-            // chk_3tran
+            // cb3
             // 
-            this.chk_3tran.AutoSize = true;
-            this.chk_3tran.Location = new System.Drawing.Point(91, 216);
-            this.chk_3tran.Name = "chk_3tran";
-            this.chk_3tran.Size = new System.Drawing.Size(61, 20);
-            this.chk_3tran.TabIndex = 30;
-            this.chk_3tran.Text = "3 trận";
-            this.chk_3tran.UseVisualStyleBackColor = true;
+            this.cb3.AutoSize = true;
+            this.cb3.Location = new System.Drawing.Point(91, 216);
+            this.cb3.Name = "cb3";
+            this.cb3.Size = new System.Drawing.Size(61, 20);
+            this.cb3.TabIndex = 30;
+            this.cb3.Text = "3 trận";
+            this.cb3.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -158,29 +158,29 @@ namespace CoCaro
             this.label5.TabIndex = 29;
             this.label5.Text = "Số trận";
             // 
-            // rbd_2
+            // rbComputerFirst
             // 
-            this.rbd_2.AutoSize = true;
-            this.rbd_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbd_2.Location = new System.Drawing.Point(312, 164);
-            this.rbd_2.Name = "rbd_2";
-            this.rbd_2.Size = new System.Drawing.Size(112, 20);
-            this.rbd_2.TabIndex = 28;
-            this.rbd_2.TabStop = true;
-            this.rbd_2.Text = "Máy đi trước";
-            this.rbd_2.UseVisualStyleBackColor = true;
+            this.rbComputerFirst.AutoSize = true;
+            this.rbComputerFirst.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbComputerFirst.Location = new System.Drawing.Point(312, 164);
+            this.rbComputerFirst.Name = "rbComputerFirst";
+            this.rbComputerFirst.Size = new System.Drawing.Size(112, 20);
+            this.rbComputerFirst.TabIndex = 28;
+            this.rbComputerFirst.TabStop = true;
+            this.rbComputerFirst.Text = "Máy đi trước";
+            this.rbComputerFirst.UseVisualStyleBackColor = true;
             // 
-            // rdb_1
+            // rbPlayerFirst
             // 
-            this.rdb_1.AutoSize = true;
-            this.rdb_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdb_1.Location = new System.Drawing.Point(168, 166);
-            this.rdb_1.Name = "rdb_1";
-            this.rdb_1.Size = new System.Drawing.Size(124, 20);
-            this.rdb_1.TabIndex = 27;
-            this.rdb_1.TabStop = true;
-            this.rdb_1.Text = "Người đi trước";
-            this.rdb_1.UseVisualStyleBackColor = true;
+            this.rbPlayerFirst.AutoSize = true;
+            this.rbPlayerFirst.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbPlayerFirst.Location = new System.Drawing.Point(168, 166);
+            this.rbPlayerFirst.Name = "rbPlayerFirst";
+            this.rbPlayerFirst.Size = new System.Drawing.Size(124, 20);
+            this.rbPlayerFirst.TabIndex = 27;
+            this.rbPlayerFirst.TabStop = true;
+            this.rbPlayerFirst.Text = "Người đi trước";
+            this.rbPlayerFirst.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -196,13 +196,13 @@ namespace CoCaro
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(436, 304);
-            this.Controls.Add(this.chk_10tran);
-            this.Controls.Add(this.chk_7tran);
-            this.Controls.Add(this.chk_5tran);
-            this.Controls.Add(this.chk_3tran);
+            this.Controls.Add(this.cb10);
+            this.Controls.Add(this.cb7);
+            this.Controls.Add(this.cb5);
+            this.Controls.Add(this.cb3);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.rbd_2);
-            this.Controls.Add(this.rdb_1);
+            this.Controls.Add(this.rbComputerFirst);
+            this.Controls.Add(this.rbPlayerFirst);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.cbbLevel);
@@ -226,13 +226,13 @@ namespace CoCaro
         private System.Windows.Forms.TextBox txtPlayer;
         private System.Windows.Forms.ComboBox cbbLevel;
         private System.Windows.Forms.Button btnPlay;
-        private System.Windows.Forms.CheckBox chk_10tran;
-        private System.Windows.Forms.CheckBox chk_7tran;
-        private System.Windows.Forms.CheckBox chk_5tran;
-        private System.Windows.Forms.CheckBox chk_3tran;
+        private System.Windows.Forms.CheckBox cb10;
+        private System.Windows.Forms.CheckBox cb7;
+        private System.Windows.Forms.CheckBox cb5;
+        private System.Windows.Forms.CheckBox cb3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.RadioButton rbd_2;
-        private System.Windows.Forms.RadioButton rdb_1;
+        private System.Windows.Forms.RadioButton rbComputerFirst;
+        private System.Windows.Forms.RadioButton rbPlayerFirst;
         private System.Windows.Forms.Label label4;
     }
 }

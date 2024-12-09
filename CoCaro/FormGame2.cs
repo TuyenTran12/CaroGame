@@ -142,6 +142,7 @@ namespace CoCaro
 
         private void btnLAN_Click(object sender, EventArgs e)
         {
+
             socket.IP = txbIP.Text;
 
             if (!socket.ConnectServer())
