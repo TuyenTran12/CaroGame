@@ -36,14 +36,18 @@
             this.txtTaiKhoan = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+<<<<<<< HEAD
+            this.btn_guest = new System.Windows.Forms.Button();
+=======
             this.btnGuest = new System.Windows.Forms.Button();
+>>>>>>> 8f6ca376bd09b0f4b318b584bff6f9efad7bf15c
             this.SuspendLayout();
             // 
             // btnDangNhap
             // 
             this.btnDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btnDangNhap.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnDangNhap.Location = new System.Drawing.Point(229, 298);
+            this.btnDangNhap.Location = new System.Drawing.Point(153, 298);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(161, 63);
             this.btnDangNhap.TabIndex = 0;
@@ -103,7 +107,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(492, 298);
+            this.button2.Location = new System.Drawing.Point(404, 298);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(161, 63);
             this.button2.TabIndex = 6;
@@ -122,6 +126,19 @@
             this.linkLabel1.Text = "Hãy nhấn vào đây nếu bạn chưa có tài khoản";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+<<<<<<< HEAD
+            // btn_guest
+            // 
+            this.btn_guest.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_guest.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_guest.Location = new System.Drawing.Point(627, 298);
+            this.btn_guest.Name = "btn_guest";
+            this.btn_guest.Size = new System.Drawing.Size(161, 63);
+            this.btn_guest.TabIndex = 8;
+            this.btn_guest.Text = "Tài khoản khách";
+            this.btn_guest.UseVisualStyleBackColor = true;
+            this.btn_guest.Click += new System.EventHandler(this.btn_guest_Click);
+=======
             // btnGuest
             // 
             this.btnGuest.Location = new System.Drawing.Point(711, 146);
@@ -131,13 +148,18 @@
             this.btnGuest.Text = "Guest";
             this.btnGuest.UseVisualStyleBackColor = true;
             this.btnGuest.Click += new System.EventHandler(this.btnGuest_Click);
+>>>>>>> 8f6ca376bd09b0f4b318b584bff6f9efad7bf15c
             // 
             // DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(876, 453);
+<<<<<<< HEAD
+            this.Controls.Add(this.btn_guest);
+=======
             this.Controls.Add(this.btnGuest);
+>>>>>>> 8f6ca376bd09b0f4b318b584bff6f9efad7bf15c
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txtMatKhau);
@@ -163,6 +185,10 @@
         private System.Windows.Forms.TextBox txtTaiKhoan;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.LinkLabel linkLabel1;
+<<<<<<< HEAD
+        private System.Windows.Forms.Button btn_guest;
+=======
         private System.Windows.Forms.Button btnGuest;
+>>>>>>> 8f6ca376bd09b0f4b318b584bff6f9efad7bf15c
     }
 }

@@ -98,12 +98,23 @@ namespace CoCaro
             this.Hide();
         }
 
+<<<<<<< HEAD
+        private void btn_guest_Click(object sender, EventArgs e)
+        {
+            FormStart frmStr = new FormStart();
+            frmStr.SetUserName("Khách"); // Đặt tên người dùng là "Khách"
+            frmStr.DisableLeaderboard(); // Vô hiệu hóa chức năng Leaderboard
+            frmStr.SetScore(0); // Đặt điểm số ban đầu là 0
+            frmStr.Show();
+            this.Hide();
+=======
         private void btnGuest_Click(object sender, EventArgs e)
         {
             // Tự động đăng nhập với tài khoản "guest"
             txtTaiKhoan.Text = ConfigurationManager.AppSettings["username"];
             txtMatKhau.Text = ConfigurationManager.AppSettings["password"];
             btnDangNhap_Click(sender, e);  // Gọi lại hàm đăng nhập
+>>>>>>> 8f6ca376bd09b0f4b318b584bff6f9efad7bf15c
         }
     }
 }

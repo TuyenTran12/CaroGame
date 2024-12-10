@@ -24,8 +24,13 @@ namespace CoCaro
         public void SetUserName(string username)
         {
             txtUsername.Text = username;
-            int score = database.GetScore(username);
-            lb_Score.Text = "Score: " + score.ToString();
+            //int score = database.GetScore(username);
+            //lb_Score.Text = "Score: " + score.ToString();
+        }
+        public void SetScore(int score)
+        {
+            lb_Score.Text =  score.ToString(); // Hiển thị điểm số
+            lb_Score.Visible = false; // Ẩn label lb_Score
         }
         private void btnOnePlayer_Click(object sender, EventArgs e)
         {
@@ -58,6 +63,10 @@ namespace CoCaro
         {
             LeaderBoard lb = new LeaderBoard(txtUsername.Text);
             lb.Show();
+        }
+        public void DisableLeaderboard()
+        {
+            btnLeaderboard.Enabled = false; // Vô hiệu hóa button Leaderboard
         }
 
         private void lb_Score_Click(object sender, EventArgs e)
