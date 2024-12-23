@@ -33,7 +33,6 @@ namespace CoCaro
             this.label2 = new System.Windows.Forms.Label();
             this.txtPlayer1 = new System.Windows.Forms.TextBox();
             this.txtPlayer2 = new System.Windows.Forms.TextBox();
-            this.btnPlay = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.rdb_1 = new System.Windows.Forms.RadioButton();
@@ -43,6 +42,7 @@ namespace CoCaro
             this.chk_5tran = new System.Windows.Forms.CheckBox();
             this.chk_7tran = new System.Windows.Forms.CheckBox();
             this.chk_10tran = new System.Windows.Forms.CheckBox();
+            this.btnPlay = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // label1
@@ -78,17 +78,6 @@ namespace CoCaro
             this.txtPlayer2.Name = "txtPlayer2";
             this.txtPlayer2.Size = new System.Drawing.Size(275, 22);
             this.txtPlayer2.TabIndex = 7;
-            // 
-            // btnPlay
-            // 
-            this.btnPlay.Location = new System.Drawing.Point(167, 239);
-            this.btnPlay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(67, 26);
-            this.btnPlay.TabIndex = 8;
-            this.btnPlay.Text = "Chơi";
-            this.btnPlay.UseVisualStyleBackColor = true;
-            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // label3
             // 
@@ -182,11 +171,31 @@ namespace CoCaro
             this.chk_10tran.Text = "10 trận";
             this.chk_10tran.UseVisualStyleBackColor = true;
             // 
+            // btnPlay
+            // 
+            this.btnPlay.BackColor = System.Drawing.Color.Transparent;
+            this.btnPlay.BorderRadius = 10;
+            this.btnPlay.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.btnPlay.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPlay.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPlay.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPlay.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPlay.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btnPlay.ForeColor = System.Drawing.Color.Black;
+            this.btnPlay.Location = new System.Drawing.Point(151, 233);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(114, 40);
+            this.btnPlay.TabIndex = 35;
+            this.btnPlay.Text = "Chơi";
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click_1);
+            // 
             // Form2Player
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(436, 276);
+            this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.chk_10tran);
             this.Controls.Add(this.chk_7tran);
             this.Controls.Add(this.chk_5tran);
@@ -196,7 +205,6 @@ namespace CoCaro
             this.Controls.Add(this.rdb_1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.txtPlayer2);
             this.Controls.Add(this.txtPlayer1);
             this.Controls.Add(this.label2);
@@ -215,7 +223,6 @@ namespace CoCaro
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPlayer1;
         private System.Windows.Forms.TextBox txtPlayer2;
-        private System.Windows.Forms.Button btnPlay;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RadioButton rdb_1;
@@ -225,5 +232,6 @@ namespace CoCaro
         private System.Windows.Forms.CheckBox chk_5tran;
         private System.Windows.Forms.CheckBox chk_7tran;
         private System.Windows.Forms.CheckBox chk_10tran;
+        private Guna.UI2.WinForms.Guna2Button btnPlay;
     }
 }

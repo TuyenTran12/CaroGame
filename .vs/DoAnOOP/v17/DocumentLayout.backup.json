@@ -1,51 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\",
+  "WorkspaceRootPath": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\doanoop\\29 - 11\\carogame-main\\cocaro\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\downloads\\carogame-main\\carogame-main\\cocaro\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|D:\\DoAnOOP\\29 - 11\\CaroGame-main\\cocaro\\form1player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\form1player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|D:\\DoAnOOP\\29 - 11\\CaroGame-main\\cocaro\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\downloads\\carogame-main\\carogame-main\\cocaro\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|D:\\DoAnOOP\\29 - 11\\CaroGame-main\\cocaro\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\downloads\\carogame-main\\carogame-main\\cocaro\\formmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\formmusic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|D:\\DoAnOOP\\29 - 11\\CaroGame-main\\cocaro\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\downloads\\carogame-main\\carogame-main\\cocaro\\formgame2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\formgame2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\downloads\\carogame-main\\carogame-main\\cocaro\\formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\formgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\downloads\\carogame-main\\carogame-main\\cocaro\\formchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\formchangepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\downloads\\carogame-main\\carogame-main\\cocaro\\form2player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\form2player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\downloads\\carogame-main\\carogame-main\\cocaro\\form1player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\form1player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\downloads\\carogame-main\\carogame-main\\cocaro\\form2player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\form2player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\downloads\\carogame-main\\carogame-main\\cocaro\\form1player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\form1player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\downloads\\carogame-main\\carogame-main\\cocaro\\formchangepassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\formchangepassword.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|D:\\Downloads\\CaroGame-main\\CaroGame-main\\cocaro\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|D:\\DoAnOOP\\29 - 11\\CaroGame-main\\cocaro\\formgame2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\formgame2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\cocaro\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 8f6ca376bd09b0f4b318b584bff6f9efad7bf15c
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\cocaro\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|D:\\Downloads\\CaroGame-main\\CaroGame-main\\cocaro\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|d:\\downloads\\compressed\\carogame-main_4\\carogame-main\\cocaro\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\cocaro\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\cocaro\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|D:\\Downloads\\CaroGame-main\\CaroGame-main\\cocaro\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A490C17-ED52-44B9-84C1-0BDE3C5192E7}|CoCaro\\CoCaro.csproj|solutionrelative:cocaro\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,180 +71,175 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-<<<<<<< HEAD
-              "Title": "FormStart.cs",
-              "DocumentMoniker": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\FormStart.cs",
-              "RelativeDocumentMoniker": "CoCaro\\FormStart.cs",
-              "ToolTip": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\FormStart.cs",
-              "RelativeToolTip": "CoCaro\\FormStart.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAA6AAAAAAAAAA==",
+              "Title": "LeaderBoard.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\LeaderBoard.cs",
+              "RelativeDocumentMoniker": "CoCaro\\LeaderBoard.cs",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\LeaderBoard.cs [Design]",
+              "RelativeToolTip": "CoCaro\\LeaderBoard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T05:39:16.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormStart.cs [Design]",
-              "DocumentMoniker": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\FormStart.cs",
-              "RelativeDocumentMoniker": "CoCaro\\FormStart.cs",
-              "ToolTip": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\FormStart.cs [Design]",
-              "RelativeToolTip": "CoCaro\\FormStart.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T05:37:48.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DangNhap.cs",
-              "DocumentMoniker": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\DangNhap.cs",
-              "RelativeDocumentMoniker": "CoCaro\\DangNhap.cs",
-              "ToolTip": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\DangNhap.cs",
-              "RelativeToolTip": "CoCaro\\DangNhap.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAYwE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T05:34:43.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DangNhap.cs [Design]",
-              "DocumentMoniker": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\DangNhap.cs",
-              "RelativeDocumentMoniker": "CoCaro\\DangNhap.cs",
-              "ToolTip": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\DangNhap.cs [Design]",
-              "RelativeToolTip": "CoCaro\\DangNhap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T05:34:05.581Z"
+              "WhenOpened": "2024-12-23T12:26:06.912Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1Player.cs [Design]",
-              "DocumentMoniker": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\Form1Player.cs",
-              "RelativeDocumentMoniker": "CoCaro\\Form1Player.cs",
-              "ToolTip": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\Form1Player.cs [Design]",
-              "RelativeToolTip": "CoCaro\\Form1Player.cs [Design]",
+              "Title": "FormStart.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\FormStart.cs",
+              "RelativeDocumentMoniker": "CoCaro\\FormStart.cs",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\FormStart.cs [Design]",
+              "RelativeToolTip": "CoCaro\\FormStart.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T05:33:56.905Z"
+              "WhenOpened": "2024-12-23T12:25:17.075Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormMusic.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\FormMusic.cs",
+              "RelativeDocumentMoniker": "CoCaro\\FormMusic.cs",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\FormMusic.cs [Design]",
+              "RelativeToolTip": "CoCaro\\FormMusic.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:25:16.507Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormGame2.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\FormGame2.cs",
+              "RelativeDocumentMoniker": "CoCaro\\FormGame2.cs",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\FormGame2.cs [Design]",
+              "RelativeToolTip": "CoCaro\\FormGame2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:25:14.006Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormGame.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\FormGame.cs",
+              "RelativeDocumentMoniker": "CoCaro\\FormGame.cs",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\FormGame.cs [Design]",
+              "RelativeToolTip": "CoCaro\\FormGame.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:25:13.194Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FormGame2.cs",
-              "DocumentMoniker": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\FormGame2.cs",
-              "RelativeDocumentMoniker": "CoCaro\\FormGame2.cs",
-              "ToolTip": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\FormGame2.cs",
-              "RelativeToolTip": "CoCaro\\FormGame2.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAUwJAAAAAAAAAAAAAAAA==",
+              "Title": "FormChangePassword.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\FormChangePassword.cs",
+              "RelativeDocumentMoniker": "CoCaro\\FormChangePassword.cs",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\FormChangePassword.cs [Design]",
+              "RelativeToolTip": "CoCaro\\FormChangePassword.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:00:59.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormGame2.cs [Design]",
-              "DocumentMoniker": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\FormGame2.cs",
-              "RelativeDocumentMoniker": "CoCaro\\FormGame2.cs",
-              "ToolTip": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\FormGame2.cs [Design]",
-              "RelativeToolTip": "CoCaro\\FormGame2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:00:55.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form2PlayerMode.cs [Design]",
-              "DocumentMoniker": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\Form2PlayerMode.cs",
-              "RelativeDocumentMoniker": "CoCaro\\Form2PlayerMode.cs",
-              "ToolTip": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\Form2PlayerMode.cs [Design]",
-              "RelativeToolTip": "CoCaro\\Form2PlayerMode.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:00:45.038Z"
+              "WhenOpened": "2024-12-23T12:25:12.197Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ChessBoardMaganer.cs",
-              "DocumentMoniker": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\ChessBoardMaganer.cs",
-              "RelativeDocumentMoniker": "CoCaro\\ChessBoardMaganer.cs",
-              "ToolTip": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\ChessBoardMaganer.cs",
-              "RelativeToolTip": "CoCaro\\ChessBoardMaganer.cs",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAkwNgAAAAAAAAAAAAAAA==",
+              "Title": "Form2Player.cs",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\Form2Player.cs",
+              "RelativeDocumentMoniker": "CoCaro\\Form2Player.cs",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\Form2Player.cs",
+              "RelativeToolTip": "CoCaro\\Form2Player.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAE4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T13:54:29.946Z"
+              "WhenOpened": "2024-12-23T12:23:30.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form2Player.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\Form2Player.cs",
+              "RelativeDocumentMoniker": "CoCaro\\Form2Player.cs",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\Form2Player.cs [Design]",
+              "RelativeToolTip": "CoCaro\\Form2Player.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:15:58.773Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1Player.cs",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\Form1Player.cs",
+              "RelativeDocumentMoniker": "CoCaro\\Form1Player.cs",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\Form1Player.cs",
+              "RelativeToolTip": "CoCaro\\Form1Player.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T12:13:06.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "SocketManager.cs",
-              "DocumentMoniker": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\SocketManager.cs",
-              "RelativeDocumentMoniker": "CoCaro\\SocketManager.cs",
-              "ToolTip": "D:\\DoAnOOP\\29 - 11\\CaroGame-main\\CoCaro\\SocketManager.cs",
-              "RelativeToolTip": "CoCaro\\SocketManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGoAAAAfAAAAAAAAAA==",
+              "Title": "Form1Player.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\Form1Player.cs",
+              "RelativeDocumentMoniker": "CoCaro\\Form1Player.cs",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\Form1Player.cs [Design]",
+              "RelativeToolTip": "CoCaro\\Form1Player.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T13:49:45.041Z"
-=======
-              "Title": "LeaderBoard.cs",
-              "DocumentMoniker": "D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\CoCaro\\LeaderBoard.cs",
-              "RelativeDocumentMoniker": "CoCaro\\LeaderBoard.cs",
-              "ToolTip": "D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\CoCaro\\LeaderBoard.cs",
-              "RelativeToolTip": "CoCaro\\LeaderBoard.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "WhenOpened": "2024-12-23T12:09:41.324Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormChangePassword.Designer.cs",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\FormChangePassword.Designer.cs",
+              "RelativeDocumentMoniker": "CoCaro\\FormChangePassword.Designer.cs",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\FormChangePassword.Designer.cs",
+              "RelativeToolTip": "CoCaro\\FormChangePassword.Designer.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T16:19:57.887Z",
+              "WhenOpened": "2024-12-23T12:19:46.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DatabaseConnection.cs",
-              "DocumentMoniker": "D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\CoCaro\\DatabaseConnection.cs",
-              "RelativeDocumentMoniker": "CoCaro\\DatabaseConnection.cs",
-              "ToolTip": "D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\CoCaro\\DatabaseConnection.cs",
-              "RelativeToolTip": "CoCaro\\DatabaseConnection.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCsAAABBAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "DangKy.cs",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\DangKy.cs",
+              "RelativeDocumentMoniker": "CoCaro\\DangKy.cs",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\DangKy.cs",
+              "RelativeToolTip": "CoCaro\\DangKy.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAkwGkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:37:11.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\CoCaro\\App.config",
-              "RelativeDocumentMoniker": "CoCaro\\App.config",
-              "ToolTip": "D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\CoCaro\\App.config",
-              "RelativeToolTip": "CoCaro\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-09T15:35:36.278Z",
+              "WhenOpened": "2024-12-23T11:50:25.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "DangNhap.cs",
-              "DocumentMoniker": "D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\CoCaro\\DangNhap.cs",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\DangNhap.cs",
               "RelativeDocumentMoniker": "CoCaro\\DangNhap.cs",
-              "ToolTip": "D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\CoCaro\\DangNhap.cs",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\DangNhap.cs",
               "RelativeToolTip": "CoCaro\\DangNhap.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAUwFoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAFAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:34:24.982Z",
+              "WhenOpened": "2024-12-23T11:44:43.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "DangNhap.cs [Design]",
-              "DocumentMoniker": "D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\CoCaro\\DangNhap.cs",
+              "DocumentMoniker": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\DangNhap.cs",
               "RelativeDocumentMoniker": "CoCaro\\DangNhap.cs",
-              "ToolTip": "D:\\Downloads\\Compressed\\CaroGame-main_4\\CaroGame-main\\CoCaro\\DangNhap.cs [Design]",
+              "ToolTip": "D:\\Downloads\\CaroGame-main\\CaroGame-main\\CoCaro\\DangNhap.cs [Design]",
               "RelativeToolTip": "CoCaro\\DangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T15:33:44.86Z",
+              "WhenOpened": "2024-12-23T11:30:38.739Z",
               "EditorCaption": " [Design]"
->>>>>>> 8f6ca376bd09b0f4b318b584bff6f9efad7bf15c
             }
           ]
         }

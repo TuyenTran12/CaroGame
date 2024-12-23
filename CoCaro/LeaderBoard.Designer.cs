@@ -66,6 +66,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Niagara Solid", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(264, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(250, 85);
@@ -79,7 +80,7 @@
             this.pnTop1.Controls.Add(this.lbScore1);
             this.pnTop1.Controls.Add(this.lbName1);
             this.pnTop1.Controls.Add(this.txtTop1);
-            this.pnTop1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pnTop1.ForeColor = System.Drawing.Color.Black;
             this.pnTop1.Location = new System.Drawing.Point(3, 114);
             this.pnTop1.Name = "pnTop1";
             this.pnTop1.Size = new System.Drawing.Size(795, 62);
@@ -125,6 +126,7 @@
             this.pnTop2.Controls.Add(this.lbScore2);
             this.pnTop2.Controls.Add(this.lbName2);
             this.pnTop2.Controls.Add(this.lbTop2);
+            this.pnTop2.ForeColor = System.Drawing.Color.Black;
             this.pnTop2.Location = new System.Drawing.Point(3, 182);
             this.pnTop2.Name = "pnTop2";
             this.pnTop2.Size = new System.Drawing.Size(795, 62);
@@ -170,6 +172,7 @@
             this.pnTop4.Controls.Add(this.lbScore4);
             this.pnTop4.Controls.Add(this.lbName4);
             this.pnTop4.Controls.Add(this.lbTop4);
+            this.pnTop4.ForeColor = System.Drawing.Color.Black;
             this.pnTop4.Location = new System.Drawing.Point(3, 318);
             this.pnTop4.Name = "pnTop4";
             this.pnTop4.Size = new System.Drawing.Size(795, 62);
@@ -179,6 +182,7 @@
             // 
             this.lbScore4.AutoSize = true;
             this.lbScore4.Font = new System.Drawing.Font("Niagara Solid", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbScore4.ForeColor = System.Drawing.Color.Black;
             this.lbScore4.Location = new System.Drawing.Point(690, 6);
             this.lbScore4.Name = "lbScore4";
             this.lbScore4.Size = new System.Drawing.Size(38, 54);
@@ -189,6 +193,7 @@
             // 
             this.lbName4.AutoSize = true;
             this.lbName4.Font = new System.Drawing.Font("Niagara Solid", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbName4.ForeColor = System.Drawing.Color.Black;
             this.lbName4.Location = new System.Drawing.Point(159, 6);
             this.lbName4.Name = "lbName4";
             this.lbName4.Size = new System.Drawing.Size(90, 54);
@@ -200,6 +205,7 @@
             this.lbTop4.AccessibleName = "lbTop";
             this.lbTop4.AutoSize = true;
             this.lbTop4.Font = new System.Drawing.Font("Niagara Solid", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTop4.ForeColor = System.Drawing.Color.Black;
             this.lbTop4.Location = new System.Drawing.Point(8, -1);
             this.lbTop4.Name = "lbTop4";
             this.lbTop4.Size = new System.Drawing.Size(42, 64);
@@ -213,7 +219,7 @@
             this.pnTop3.Controls.Add(this.lbScore3);
             this.pnTop3.Controls.Add(this.lbName3);
             this.pnTop3.Controls.Add(this.lbTop3);
-            this.pnTop3.ForeColor = System.Drawing.Color.Cornsilk;
+            this.pnTop3.ForeColor = System.Drawing.Color.Black;
             this.pnTop3.Location = new System.Drawing.Point(3, 250);
             this.pnTop3.Name = "pnTop3";
             this.pnTop3.Size = new System.Drawing.Size(795, 62);
@@ -260,6 +266,7 @@
             this.pnTop5.Controls.Add(this.lbScore5);
             this.pnTop5.Controls.Add(this.lbName5);
             this.pnTop5.Controls.Add(this.lbTop5);
+            this.pnTop5.ForeColor = System.Drawing.Color.Black;
             this.pnTop5.Location = new System.Drawing.Point(3, 386);
             this.pnTop5.Name = "pnTop5";
             this.pnTop5.Size = new System.Drawing.Size(795, 62);
@@ -269,6 +276,7 @@
             // 
             this.lbScore5.AutoSize = true;
             this.lbScore5.Font = new System.Drawing.Font("Niagara Solid", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbScore5.ForeColor = System.Drawing.Color.Black;
             this.lbScore5.Location = new System.Drawing.Point(690, 6);
             this.lbScore5.Name = "lbScore5";
             this.lbScore5.Size = new System.Drawing.Size(38, 54);
@@ -279,6 +287,7 @@
             // 
             this.lbName5.AutoSize = true;
             this.lbName5.Font = new System.Drawing.Font("Niagara Solid", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbName5.ForeColor = System.Drawing.Color.Black;
             this.lbName5.Location = new System.Drawing.Point(159, 6);
             this.lbName5.Name = "lbName5";
             this.lbName5.Size = new System.Drawing.Size(90, 54);
@@ -290,6 +299,7 @@
             this.lbTop5.AccessibleName = "lbTop";
             this.lbTop5.AutoSize = true;
             this.lbTop5.Font = new System.Drawing.Font("Niagara Solid", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTop5.ForeColor = System.Drawing.Color.Black;
             this.lbTop5.Location = new System.Drawing.Point(8, -1);
             this.lbTop5.Name = "lbTop5";
             this.lbTop5.Size = new System.Drawing.Size(46, 64);
@@ -303,6 +313,7 @@
             this.pnTopNow.Controls.Add(this.lbScoreNow);
             this.pnTopNow.Controls.Add(this.lbNameNow);
             this.pnTopNow.Controls.Add(this.lbTopNow);
+            this.pnTopNow.ForeColor = System.Drawing.Color.Black;
             this.pnTopNow.Location = new System.Drawing.Point(3, 471);
             this.pnTopNow.Name = "pnTopNow";
             this.pnTopNow.Size = new System.Drawing.Size(795, 62);
@@ -312,6 +323,7 @@
             // 
             this.lbScoreNow.AutoSize = true;
             this.lbScoreNow.Font = new System.Drawing.Font("Niagara Solid", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbScoreNow.ForeColor = System.Drawing.Color.Black;
             this.lbScoreNow.Location = new System.Drawing.Point(690, 6);
             this.lbScoreNow.Name = "lbScoreNow";
             this.lbScoreNow.Size = new System.Drawing.Size(38, 54);
@@ -322,6 +334,7 @@
             // 
             this.lbNameNow.AutoSize = true;
             this.lbNameNow.Font = new System.Drawing.Font("Niagara Solid", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNameNow.ForeColor = System.Drawing.Color.Black;
             this.lbNameNow.Location = new System.Drawing.Point(159, 6);
             this.lbNameNow.Name = "lbNameNow";
             this.lbNameNow.Size = new System.Drawing.Size(90, 54);
@@ -333,6 +346,7 @@
             this.lbTopNow.AccessibleName = "lbTop";
             this.lbTopNow.AutoSize = true;
             this.lbTopNow.Font = new System.Drawing.Font("Niagara Solid", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTopNow.ForeColor = System.Drawing.Color.Black;
             this.lbTopNow.Location = new System.Drawing.Point(8, -1);
             this.lbTopNow.Name = "lbTopNow";
             this.lbTopNow.Size = new System.Drawing.Size(44, 64);
@@ -343,6 +357,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(0, 452);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(1391, 25);
@@ -355,6 +370,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(800, 534);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pnTopNow);
@@ -364,9 +380,9 @@
             this.Controls.Add(this.pnTop3);
             this.Controls.Add(this.pnTop1);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.Color.White;
             this.Name = "LeaderBoard";
             this.Text = "LeaderBoard";
-          
             this.pnTop1.ResumeLayout(false);
             this.pnTop1.PerformLayout();
             this.pnTop2.ResumeLayout(false);

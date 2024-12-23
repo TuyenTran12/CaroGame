@@ -14,8 +14,24 @@ namespace CoCaro
             InitializeComponent();
             txtPlayer.Text = username;
         }
-        private void btnPlay_Click(object sender, EventArgs e)
+        private int GetNumberOfGames()
         {
+            if (cb3.Checked) return 3;
+            if (cb5.Checked) return 5;
+            if (cb7.Checked) return 7;
+            if (cb10.Checked) return 10;
+
+            return 3;
+        }
+
+        private void errorMessage(string text)
+        {
+            MessageBox.Show(text, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private void btnPlay_Click_1(object sender, EventArgs e)
+        {
+
             if (txtPlayer.Text == "Máy tính")
             {
                 errorMessage("Bạn không được đặt tên này!");
@@ -54,21 +70,7 @@ namespace CoCaro
                 formGame.ShowDialog();
                 this.Close();
             }
-        }
-        private int GetNumberOfGames()
-        {
-            if (cb3.Checked) return 3;
-            if (cb5.Checked) return 5;
-            if (cb7.Checked) return 7;
-            if (cb10.Checked) return 10;
 
-            return 3;
         }
-
-        private void errorMessage(string text)
-        {
-            MessageBox.Show(text, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        }
-
     }
 }

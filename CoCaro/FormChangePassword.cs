@@ -27,7 +27,16 @@ namespace CoCaro
             database = new DatabaseConnection();
             Username = username;
         }
-        private void btnDangKy_Click(object sender, EventArgs e)
+
+
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnDangKy_Click_1(object sender, EventArgs e)
         {
             string oldPassword = tbOldPassword.Text.Trim();
             string newPassword = tbNewPassword.Text.Trim();
@@ -100,12 +109,7 @@ namespace CoCaro
             {
                 database.CloseConnection(conn);
             }
-        }
 
-        private void btnCancel_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
-
 }
